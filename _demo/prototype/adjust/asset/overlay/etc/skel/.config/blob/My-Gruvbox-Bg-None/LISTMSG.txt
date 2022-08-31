@@ -1,0 +1,7 @@
+<b>Collection name: My-Gruvbox-Bg_None</b>	
+Saved: Tue Nov  9 11:47:30 PM CET 2021
+
+Wallpaper saved by Nitrogen:\n/usr/share/backgrounds/gruvbox.png;\n
+Openbox theme:  Gruvbox\n
+GTK theme:  Gruvbox\n
+Running Tint2s:\t\n\t~/.config/tint2/profile/gruvbox-two-panel/gruvbox-top.tint2rc\n\t~/.config/tint2/profile/gruvbox-two-panel/gruvbox-bottom.tint2rc\n\t~/.config/tint2/profile/gruvbox-two-panel/gruvbox-launcher.tint2rc\n
