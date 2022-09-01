@@ -4,8 +4,8 @@
 
 ## Spec
 
-* [keybind](../../doc/spec-keybind.md)
-* [mousebind](../../doc/spec-mousebind.md)
+* [keybind](spec-keybind.md)
+* [mousebind](spec-mousebind.md)
 
 
 ## Help
