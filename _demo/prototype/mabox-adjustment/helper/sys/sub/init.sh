@@ -20,8 +20,8 @@ source "${THE_SUB_DIR_PATH}/font/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/tint2/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/rofi/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/obthemes/ext/init.sh"
-
-
+source "${THE_SUB_DIR_PATH}/theme/ext/init.sh"
+source "${THE_SUB_DIR_PATH}/xdg/ext/init.sh"
 
 ##
 ### Tail: Func / Init

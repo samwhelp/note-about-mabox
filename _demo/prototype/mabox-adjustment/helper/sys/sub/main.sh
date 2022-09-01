@@ -34,6 +34,8 @@ mod_main_package_list_find_for_install () {
 	mod_tint2_package_list_find_for_install
 	mod_rofi_package_list_find_for_install
 	mod_obthemes_package_list_find_for_install
+	mod_theme_package_list_find_for_install
+	mod_xdg_package_list_find_for_install
 }
 
 ##
@@ -67,6 +69,8 @@ mod_main_config_install () {
 	mod_tint2_config_install
 	mod_rofi_config_install
 	mod_obthemes_config_install
+	mod_theme_config_install
+	mod_xdg_config_install
 
 
 	util_error_echo
@@ -104,6 +108,8 @@ mod_main_asset_install () {
 	mod_tint2_asset_install
 	mod_rofi_asset_install
 	mod_obthemes_asset_install
+	mod_theme_asset_install
+	mod_xdg_asset_install
 
 
 	util_error_echo
