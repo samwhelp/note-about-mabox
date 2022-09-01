@@ -12,9 +12,9 @@ sys_viewnior_package_install () {
 	util_error_echo "##"
 	util_error_echo
 
-	##util_error_echo "${THE_SUB_PACKAGE_LIST_FILE_PATH}"
+	##util_error_echo "${THE_SUB_VIEWNIOR_PACKAGE_LIST_FILE_PATH}"
 
-	sys_package_list_install "${THE_SUB_PACKAGE_LIST_FILE_PATH}"
+	sys_package_list_install "${THE_SUB_VIEWNIOR_PACKAGE_LIST_FILE_PATH}"
 
 }
 
