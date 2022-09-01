@@ -33,7 +33,15 @@ sys_main_config_install () {
 	util_error_echo '## sys_main_config_install'
 	util_error_echo "##"
 	util_error_echo
+	util_error_echo
 
+	sys_sakura_config_install
+	sys_pcmanfm_qt_config_install
+	sys_viewnior_config_install
+	sys_mpv_config_install
+
+
+	util_error_echo
 
 }
 
