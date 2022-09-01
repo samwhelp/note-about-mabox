@@ -32,7 +32,7 @@ sys_package_list_install_by_pacman () {
 	local package_list="$(sys_package_list_find "$1")"
 
 	util_error_echo "sudo pacman -Sy --needed" ${package_list}
-	sudo pacman -Sy --needed "${package_list}"
+	sudo pacman -Sy --needed ${package_list}
 
 }
 

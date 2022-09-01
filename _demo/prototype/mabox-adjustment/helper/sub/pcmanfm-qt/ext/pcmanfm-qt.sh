@@ -1,39 +1,43 @@
 
 
 ################################################################################
-### Head: Sys / Pcmanfm-Qt / Package / Install
+### Head: Mod / Pcmanfm-Qt / Package / Install
 ##
 
-sys_pcmanfm_qt_package_install () {
+mod_pcmanfm_qt_package_install () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo '## sys_pcmanfm_qt_package_install'
+	util_error_echo '## mod_pcmanfm_qt_package_install'
 	util_error_echo "##"
 	util_error_echo
 
-	##util_error_echo "${THE_SUB_PCMANFM_QT_PACKAGE_LIST_FILE_PATH}"
+	##util_error_echo "${THE_SUB_PCMANFM_QT_PACKAGE_LIST_INSTALL_FILE_PATH}"
 
-	sys_package_list_install "${THE_SUB_PCMANFM_QT_PACKAGE_LIST_FILE_PATH}"
+	sys_package_list_install "${THE_SUB_PCMANFM_QT_PACKAGE_LIST_INSTALL_FILE_PATH}"
 
 }
 
+mod_pcmanfm_qt_package_list_find_for_install () {
+	sys_package_list_find "${THE_SUB_PCMANFM_QT_PACKAGE_LIST_INSTALL_FILE_PATH}"
+}
+
 ##
-### Tail: Sys / Pcmanfm-Qt / Package / Install
+### Tail: Mod / Pcmanfm-Qt / Package / Install
 ################################################################################
 
 
 
 
 ################################################################################
-### Head: Sys / Pcmanfm-Qt / Config / Install
+### Head: Mod / Pcmanfm-Qt / Config / Install
 ##
 
-sys_pcmanfm_qt_config_install () {
+mod_pcmanfm_qt_config_install () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo '## sys_pcmanfm_qt_config_install'
+	util_error_echo '## mod_pcmanfm_qt_config_install'
 	util_error_echo "##"
 	util_error_echo
 
@@ -46,17 +50,17 @@ sys_pcmanfm_qt_config_install () {
 }
 
 ##
-### Tail: Sys / Pcmanfm-Qt / Config / Install
+### Tail: Mod / Pcmanfm-Qt / Config / Install
 ################################################################################
 
 
 
 
 ################################################################################
-### Head: Sys / Pcmanfm-Qt / Asset / Install
+### Head: Mod / Pcmanfm-Qt / Asset / Install
 ##
 
-sys_pcmanfm_qt_asset_install () {
+mod_pcmanfm_qt_asset_install () {
 
 	util_error_echo
 	util_error_echo "##"
@@ -67,5 +71,5 @@ sys_pcmanfm_qt_asset_install () {
 }
 
 ##
-### Tail: Sys / Pcmanfm-Qt / Asset / Install
+### Tail: Mod / Pcmanfm-Qt / Asset / Install
 ################################################################################

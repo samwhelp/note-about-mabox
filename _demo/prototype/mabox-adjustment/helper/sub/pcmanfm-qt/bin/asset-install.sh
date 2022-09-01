@@ -33,7 +33,7 @@ source "${THE_SUB_DIR_PATH}/pcmanfm-qt/ext/init.sh"
 
 mod_main () {
 
-	sys_pcmanfm_qt_asset_install
+	mod_pcmanfm_qt_asset_install
 
 }
 
