@@ -27,17 +27,17 @@ source "${THE_SYS_EXT_DIR_PATH}/init.sh"
 
 
 ################################################################################
-### Head: Model / Demo
+### Head: Model / Main
 ##
 
-mod_demo () {
+mod_main () {
 
-	sys_demo
+	sys_main_package_install
 
 }
 
 ##
-### Tail: Model / Demo
+### Tail: Model / Main
 ################################################################################
 
 
@@ -46,7 +46,7 @@ mod_demo () {
 ##
 
 __main__ () {
-	mod_demo "$@"
+	mod_main "$@"
 }
 
 __main__ "$@"

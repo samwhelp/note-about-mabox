@@ -9,6 +9,7 @@
 ##
 
 source "${THE_SYS_EXT_MOD_DIR_PATH}/demo.sh"
+source "${THE_SYS_EXT_MOD_DIR_PATH}/main.sh"
 source "${THE_SYS_EXT_MOD_DIR_PATH}/package-list.sh"
 source "${THE_SYS_EXT_MOD_DIR_PATH}/package-install.sh"
 
