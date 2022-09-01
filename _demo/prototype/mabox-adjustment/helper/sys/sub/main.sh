@@ -36,6 +36,7 @@ mod_main_package_list_find_for_install () {
 	mod_obthemes_package_list_find_for_install
 	mod_theme_package_list_find_for_install
 	mod_xdg_package_list_find_for_install
+	mod_tool_package_list_find_for_install
 }
 
 ##
@@ -71,6 +72,7 @@ mod_main_config_install () {
 	mod_obthemes_config_install
 	mod_theme_config_install
 	mod_xdg_config_install
+	mod_tool_config_install
 
 
 	util_error_echo
@@ -110,6 +112,7 @@ mod_main_asset_install () {
 	mod_obthemes_asset_install
 	mod_theme_asset_install
 	mod_xdg_asset_install
+	mod_tool_asset_install
 
 
 	util_error_echo

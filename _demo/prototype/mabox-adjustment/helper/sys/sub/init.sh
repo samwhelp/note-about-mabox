@@ -22,6 +22,7 @@ source "${THE_SUB_DIR_PATH}/rofi/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/obthemes/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/theme/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/xdg/ext/init.sh"
+source "${THE_SUB_DIR_PATH}/tool/ext/init.sh"
 
 ##
 ### Tail: Func / Init
