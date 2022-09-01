@@ -103,6 +103,8 @@ base_var_init () {
 	THE_OVERLAY_DIR_PATH="$THE_ASSET_DIR_PATH/$THE_OVERLAY_DIR_NAME"
 
 
+	THE_PACKAGE_LIST_INSTALL_FILE_NAME="package-list-install.txt"
+	THE_PACKAGE_LIST_REMOVE_FILE_NAME="package-list-remove.txt"
 
 }
 
@@ -176,6 +178,8 @@ base_var_dump () {
 	util_debug_echo "THE_OVERLAY_DIR_PATH=$THE_OVERLAY_DIR_PATH"
 
 
+	util_debug_echo "THE_PACKAGE_LIST_INSTALL_FILE_NAME=$THE_PACKAGE_LIST_INSTALL_FILE_NAME"
+	util_debug_echo "THE_PACKAGE_LIST_REMOVE_FILE_NAME=$THE_PACKAGE_LIST_REMOVE_FILE_NAME"
 
 
 	util_debug_echo
