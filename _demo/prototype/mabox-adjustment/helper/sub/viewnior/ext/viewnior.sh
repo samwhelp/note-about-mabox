@@ -1,39 +1,44 @@
 
 
 ################################################################################
-### Head: Sys / Viewnior / Package / Install
+### Head: Mod / Viewnior / Package / Install
 ##
 
-sys_viewnior_package_install () {
+mod_viewnior_package_install () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo '## sys_viewnior_package_install'
+	util_error_echo '## mod_viewnior_package_install'
 	util_error_echo "##"
 	util_error_echo
 
-	##util_error_echo "${THE_SUB_VIEWNIOR_PACKAGE_LIST_FILE_PATH}"
+	##util_error_echo "${THE_SUB_VIEWNIOR_PACKAGE_LIST_INSTALL_FILE_PATH}"
 
-	sys_package_list_install "${THE_SUB_VIEWNIOR_PACKAGE_LIST_FILE_PATH}"
+	sys_package_list_install "${THE_SUB_VIEWNIOR_PACKAGE_LIST_INSTALL_FILE_PATH}"
 
 }
 
+
+mod_viewnior_package_list_find_for_install () {
+	sys_package_list_find "${THE_SUB_VIEWNIOR_PACKAGE_LIST_INSTALL_FILE_PATH}"
+}
+
 ##
-### Tail: Sys / Viewnior / Package / Install
+### Tail: Mod / Viewnior / Package / Install
 ################################################################################
 
 
 
 
 ################################################################################
-### Head: Sys / Viewnior / Config / Install
+### Head: Mod / Viewnior / Config / Install
 ##
 
-sys_viewnior_config_install () {
+mod_viewnior_config_install () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo '## sys_viewnior_config_install'
+	util_error_echo '## mod_viewnior_config_install'
 	util_error_echo "##"
 	util_error_echo
 
@@ -46,17 +51,17 @@ sys_viewnior_config_install () {
 }
 
 ##
-### Tail: Sys / Viewnior / Config / Install
+### Tail: Mod / Viewnior / Config / Install
 ################################################################################
 
 
 
 
 ################################################################################
-### Head: Sys / Viewnior / Asset / Install
+### Head: Mod / Viewnior / Asset / Install
 ##
 
-sys_viewnior_asset_install () {
+mod_viewnior_asset_install () {
 
 	util_error_echo
 	util_error_echo "##"
@@ -67,5 +72,5 @@ sys_viewnior_asset_install () {
 }
 
 ##
-### Tail: Sys / Viewnior / Asset / Install
+### Tail: Mod / Viewnior / Asset / Install
 ################################################################################

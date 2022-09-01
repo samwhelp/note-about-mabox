@@ -33,7 +33,7 @@ source "${THE_SUB_DIR_PATH}/viewnior/ext/init.sh"
 
 mod_main () {
 
-	sys_viewnior_package_install
+	mod_viewnior_package_install
 
 }
 
