@@ -47,11 +47,7 @@
 	<!-- ## Terminal-Quake //-->
 	<keybind key="A-S-y">
 		<action name="Execute">
-			<startupnotify>
-				<enabled>true</enabled>
-				<name>Terminal-Quake</name>
-			</startupnotify>
-			<command>xfce4-terminal --drop-down</command>
+			<command>mabox-terminal</command>
 		</action>
 	</keybind>
 <?php
@@ -63,6 +59,17 @@
 				<name>Terminal-Quake</name>
 			</startupnotify>
 			<command>tilix --quake</command>
+		</action>
+	</keybind>
+*/
+/*
+	<keybind key="A-S-y">
+		<action name="Execute">
+			<startupnotify>
+				<enabled>true</enabled>
+				<name>Terminal-Quake</name>
+			</startupnotify>
+			<command>xfce4-terminal --drop-down</command>
 		</action>
 	</keybind>
 */
