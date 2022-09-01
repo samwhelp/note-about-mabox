@@ -33,7 +33,7 @@ source "${THE_SUB_DIR_PATH}/sakura/ext/init.sh"
 
 mod_main () {
 
-	sys_sakura_package_install
+	mod_sakura_package_install
 
 }
 

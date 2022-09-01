@@ -1,39 +1,44 @@
 
 
 ################################################################################
-### Head: Sys / Sakura / Package / Install
+### Head: Mod / Sakura / Package / Install
 ##
 
-sys_sakura_package_install () {
+mod_sakura_package_install () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo '## sys_sakura_package_install'
+	util_error_echo '## mod_sakura_package_install'
 	util_error_echo "##"
 	util_error_echo
 
-	##util_error_echo "${THE_SUB_SAKURA_PACKAGE_LIST_FILE_PATH}"
+	##util_error_echo "${THE_SUB_SAKURA_PACKAGE_LIST_INSTALL_FILE_PATH}"
 
-	##sys_package_list_install "${THE_SUB_SAKURA_PACKAGE_LIST_FILE_PATH}"
-	sys_package_list_install_by_yay "${THE_SUB_SAKURA_PACKAGE_LIST_FILE_PATH}"
+	##sys_package_list_install "${THE_SUB_SAKURA_PACKAGE_LIST_INSTALL_FILE_PATH}"
+	sys_package_list_install_by_yay "${THE_SUB_SAKURA_PACKAGE_LIST_INSTALL_FILE_PATH}"
+
+}
+
+mod_sakura_package_list_find_for_install () {
+	sys_package_list_find "${THE_SUB_SAKURA_PACKAGE_LIST_INSTALL_FILE_PATH}"
 }
 
 ##
-### Tail: Sys / Sakura / Package / Install
+### Tail: Mod / Sakura / Package / Install
 ################################################################################
 
 
 
 
 ################################################################################
-### Head: Sys / Sakura / Config / Install
+### Head: Mod / Sakura / Config / Install
 ##
 
-sys_sakura_config_install () {
+mod_sakura_config_install () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo '## sys_sakura_config_install'
+	util_error_echo '## mod_sakura_config_install'
 	util_error_echo "##"
 	util_error_echo
 
@@ -46,17 +51,17 @@ sys_sakura_config_install () {
 }
 
 ##
-### Tail: Sys / Sakura / Config / Install
+### Tail: Mod / Sakura / Config / Install
 ################################################################################
 
 
 
 
 ################################################################################
-### Head: Sys / Sakura / Asset / Install
+### Head: Mod / Sakura / Asset / Install
 ##
 
-sys_sakura_asset_install () {
+mod_sakura_asset_install () {
 
 	util_error_echo
 	util_error_echo "##"
@@ -67,5 +72,5 @@ sys_sakura_asset_install () {
 }
 
 ##
-### Tail: Sys / Sakura / Asset / Install
+### Tail: Mod / Sakura / Asset / Install
 ################################################################################
