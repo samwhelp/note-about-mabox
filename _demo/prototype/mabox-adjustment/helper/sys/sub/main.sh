@@ -31,7 +31,7 @@ mod_main_package_list_find_for_install () {
 	mod_mpv_package_list_find_for_install
 	mod_fcitx5_package_list_find_for_install
 	mod_font_package_list_find_for_install
-
+	mod_tint2_package_list_find_for_install
 }
 
 ##
@@ -62,6 +62,7 @@ mod_main_config_install () {
 	mod_mpv_config_install
 	mod_fcitx5_config_install
 	mod_font_config_install
+	mod_tint2_config_install
 
 
 	util_error_echo
@@ -96,6 +97,7 @@ mod_main_asset_install () {
 	mod_mpv_asset_install
 	mod_fcitx5_asset_install
 	mod_font_asset_install
+	mod_tint2_asset_install
 
 
 	util_error_echo
