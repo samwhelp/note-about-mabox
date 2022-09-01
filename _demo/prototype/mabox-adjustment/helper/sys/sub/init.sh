@@ -14,6 +14,7 @@ source "${THE_SUB_DIR_PATH}/sakura/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/pcmanfm-qt/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/viewnior/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/mpv/ext/init.sh"
+source "${THE_SUB_DIR_PATH}/fcitx5/ext/init.sh"
 
 
 

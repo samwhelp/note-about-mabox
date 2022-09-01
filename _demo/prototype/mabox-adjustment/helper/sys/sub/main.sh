@@ -28,6 +28,7 @@ mod_main_package_list_find_for_install () {
 	mod_pcmanfm_qt_package_list_find_for_install
 	mod_viewnior_package_list_find_for_install
 	mod_mpv_package_list_find_for_install
+	mod_fcitx5_package_list_find_for_install
 
 }
 
@@ -56,6 +57,7 @@ mod_main_config_install () {
 	mod_pcmanfm_qt_config_install
 	mod_viewnior_config_install
 	mod_mpv_config_install
+	mod_fcitx5_config_install
 
 
 	util_error_echo
@@ -87,6 +89,7 @@ mod_main_asset_install () {
 	mod_pcmanfm_qt_asset_install
 	mod_viewnior_asset_install
 	mod_mpv_asset_install
+	mod_fcitx5_asset_install
 
 
 	util_error_echo

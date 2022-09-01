@@ -65,9 +65,15 @@ mod_sakura_asset_install () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo '## No Asset'
+	util_error_echo '## mod_sakura_asset_install'
 	util_error_echo "##"
 	util_error_echo
+
+
+	util_error_echo
+	util_error_echo '## No Asset'
+	util_error_echo
+
 
 }
 
