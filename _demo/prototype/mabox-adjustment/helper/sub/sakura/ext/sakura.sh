@@ -37,7 +37,7 @@ sys_sakura_config_install () {
 	util_error_echo "##"
 	util_error_echo
 
-	util_error_echo "mkdir -p ${HOME}/.config/psakura"
+	util_error_echo "mkdir -p ${HOME}/.config/sakura"
 	mkdir -p "${HOME}/.config/sakura"
 
 	util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/sakura/sakura.conf ${HOME}/.config/sakura/sakura.conf"

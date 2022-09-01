@@ -1,14 +1,14 @@
 
 
 ################################################################################
-### Head: Sys / Pcmanfm-Qt / Package / Install
+### Head: Sys / Viewnior / Package / Install
 ##
 
-sys_pcmanfm_qt_package_install () {
+sys_viewnior_package_install () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo '## sys_pcmanfm_qt_package_install'
+	util_error_echo '## sys_viewnior_package_install'
 	util_error_echo "##"
 	util_error_echo
 
@@ -19,44 +19,44 @@ sys_pcmanfm_qt_package_install () {
 }
 
 ##
-### Tail: Sys / Pcmanfm-Qt / Package / Install
+### Tail: Sys / Viewnior / Package / Install
 ################################################################################
 
 
 
 
 ################################################################################
-### Head: Sys / Pcmanfm-Qt / Config / Install
+### Head: Sys / Viewnior / Config / Install
 ##
 
-sys_pcmanfm_qt_config_install () {
+sys_viewnior_config_install () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo '## sys_pcmanfm_qt_config_install'
+	util_error_echo '## sys_viewnior_config_install'
 	util_error_echo "##"
 	util_error_echo
 
-	util_error_echo "mkdir -p ${HOME}/.config/pcmanfm-qt/default"
-	mkdir -p "${HOME}/.config/pcmanfm-qt/default"
+	util_error_echo "mkdir -p ${HOME}/.config/viewnior"
+	mkdir -p "${HOME}/.config/viewnior"
 
-	util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/pcman/pcmanfm-qt/default/settings.conf ${HOME}/.config/pcmanfm-qt/default/settings.conf"
-	install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/pcmanfm-qt/default/settings.conf" "${HOME}/.config/pcmanfm-qt/default/settings.conf"
+	util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/viewnior/viewnior.conf ${HOME}/.config/viewnior/viewnior.conf"
+	install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/viewnior/viewnior.conf" "${HOME}/.config/viewnior/viewnior.conf"
 
 }
 
 ##
-### Tail: Sys / Pcmanfm-Qt / Config / Install
+### Tail: Sys / Viewnior / Config / Install
 ################################################################################
 
 
 
 
 ################################################################################
-### Head: Sys / Pcmanfm-Qt / Asset / Install
+### Head: Sys / Viewnior / Asset / Install
 ##
 
-sys_pcmanfm_qt_asset_install () {
+sys_viewnior_asset_install () {
 
 	util_error_echo
 	util_error_echo "##"
@@ -67,5 +67,5 @@ sys_pcmanfm_qt_asset_install () {
 }
 
 ##
-### Tail: Sys / Pcmanfm-Qt / Asset / Install
+### Tail: Sys / Viewnior / Asset / Install
 ################################################################################
