@@ -5,6 +5,12 @@
 		</action>
 	</keybind>
 
+	<keybind key="W-F2">
+		<action name="Execute">
+			<command>mb-jgtools settings</command>
+		</action>
+	</keybind>
+
 
 	<keybind key="A-F5">
 		<action name="Execute">

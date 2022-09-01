@@ -329,6 +329,28 @@
 
 
 
+	<!-- ## Launch Mabox Control Center //-->
+	<keybind key="W-S-s">
+		<action name="Execute">
+			<startupnotify>
+				<enabled>true</enabled>
+				<name>Mabox Control Center</name>
+			</startupnotify>
+			<command>mcc</command>
+		</action>
+	</keybind>
+
+	<!-- ## Launch Theme Manager //-->
+	<keybind key="W-C-s">
+		<action name="Execute">
+			<startupnotify>
+				<enabled>true</enabled>
+				<name>Mabox Theme Manager</name>
+			</startupnotify>
+			<command>mb-obthemes</command>
+		</action>
+	</keybind>
+
 	<!-- ## Launch obconf //-->
 	<keybind key="A-S-s">
 		<action name="Execute">
@@ -348,9 +370,11 @@
 				<enabled>true</enabled>
 				<name>Appearance</name>
 			</startupnotify>
-			<command>xfce4-appearance-settings</command>
+			<command>lxappearance</command>
 		</action>
 	</keybind>
+
+
 
 
 	<keybind key="W-d">
@@ -426,6 +450,12 @@
 	<keybind key="W-F1">
 		<action name="Execute">
 			<command>mbhelper -s</command>
+		</action>
+	</keybind>
+
+	<keybind key="W-F2">
+		<action name="Execute">
+			<command>mb-jgtools settings</command>
 		</action>
 	</keybind>
 

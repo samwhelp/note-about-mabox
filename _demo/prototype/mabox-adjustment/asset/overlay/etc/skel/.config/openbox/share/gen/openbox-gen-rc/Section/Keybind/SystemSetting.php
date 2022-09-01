@@ -1,5 +1,27 @@
 
 
+	<!-- ## Launch Mabox Control Center //-->
+	<keybind key="W-S-s">
+		<action name="Execute">
+			<startupnotify>
+				<enabled>true</enabled>
+				<name>Mabox Control Center</name>
+			</startupnotify>
+			<command>mcc</command>
+		</action>
+	</keybind>
+
+	<!-- ## Launch Theme Manager //-->
+	<keybind key="W-C-s">
+		<action name="Execute">
+			<startupnotify>
+				<enabled>true</enabled>
+				<name>Mabox Theme Manager</name>
+			</startupnotify>
+			<command>mb-obthemes</command>
+		</action>
+	</keybind>
+
 	<!-- ## Launch obconf //-->
 	<keybind key="A-S-s">
 		<action name="Execute">
@@ -19,6 +41,21 @@
 				<enabled>true</enabled>
 				<name>Appearance</name>
 			</startupnotify>
+			<command>lxappearance</command>
+		</action>
+	</keybind>
+<?php
+/*
+	<keybind key="A-C-s">
+		<action name="Execute">
+			<startupnotify>
+				<enabled>true</enabled>
+				<name>Appearance</name>
+			</startupnotify>
 			<command>xfce4-appearance-settings</command>
 		</action>
 	</keybind>
+*/
+?>
+
+
