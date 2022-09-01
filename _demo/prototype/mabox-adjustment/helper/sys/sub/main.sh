@@ -7,9 +7,9 @@
 mod_main_package_install () {
 
 	util_error_echo
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo '## mod_main_package_install'
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo
 
 	local package_list="$(mod_main_package_list_find_for_install)"
@@ -46,9 +46,9 @@ mod_main_package_list_find_for_install () {
 mod_main_config_install () {
 
 	util_error_echo
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo '## mod_main_config_install'
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo
 	util_error_echo
 
@@ -78,9 +78,9 @@ mod_main_config_install () {
 mod_main_asset_install () {
 
 	util_error_echo
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo '## mod_main_asset_install'
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo
 
 

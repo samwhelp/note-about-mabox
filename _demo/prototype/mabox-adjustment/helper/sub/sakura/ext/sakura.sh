@@ -7,9 +7,9 @@
 mod_sakura_package_install () {
 
 	util_error_echo
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo '## mod_sakura_package_install'
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo
 
 	##util_error_echo "${THE_SUB_SAKURA_PACKAGE_LIST_INSTALL_FILE_PATH}"
@@ -37,9 +37,9 @@ mod_sakura_package_list_find_for_install () {
 mod_sakura_config_install () {
 
 	util_error_echo
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo '## mod_sakura_config_install'
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo
 
 	util_error_echo "mkdir -p ${HOME}/.config/sakura"
@@ -64,9 +64,9 @@ mod_sakura_config_install () {
 mod_sakura_asset_install () {
 
 	util_error_echo
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo '## mod_sakura_asset_install'
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo
 
 

@@ -7,9 +7,9 @@
 mod_openbox_package_install () {
 
 	util_error_echo
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo '## mod_openbox_package_install'
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo
 
 	##util_error_echo "${THE_SUB_OPENBOX_PACKAGE_LIST_INSTALL_FILE_PATH}"
@@ -36,9 +36,9 @@ mod_openbox_package_list_find_for_install () {
 mod_openbox_config_install () {
 
 	util_error_echo
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo '## mod_openbox_config_install'
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo
 
 	util_error_echo "mkdir -p ${HOME}/.config/openbox"
@@ -63,9 +63,9 @@ mod_openbox_config_install () {
 mod_openbox_asset_install () {
 
 	util_error_echo
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo '## mod_openbox_asset_install'
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo
 
 	util_error_echo

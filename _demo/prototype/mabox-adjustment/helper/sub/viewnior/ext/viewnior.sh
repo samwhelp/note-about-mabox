@@ -7,9 +7,9 @@
 mod_viewnior_package_install () {
 
 	util_error_echo
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo '## mod_viewnior_package_install'
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo
 
 	##util_error_echo "${THE_SUB_VIEWNIOR_PACKAGE_LIST_INSTALL_FILE_PATH}"
@@ -37,9 +37,9 @@ mod_viewnior_package_list_find_for_install () {
 mod_viewnior_config_install () {
 
 	util_error_echo
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo '## mod_viewnior_config_install'
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo
 
 	util_error_echo "mkdir -p ${HOME}/.config/viewnior"
@@ -64,9 +64,9 @@ mod_viewnior_config_install () {
 mod_viewnior_asset_install () {
 
 	util_error_echo
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo '## mod_viewnior_asset_install'
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo
 
 

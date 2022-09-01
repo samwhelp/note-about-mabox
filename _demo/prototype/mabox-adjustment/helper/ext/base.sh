@@ -116,7 +116,7 @@ base_var_dump () {
 	util_debug_echo
 	util_debug_echo "################################################################################"
 	util_debug_echo "### Head: var_dump"
-	util_debug_echo "##"
+	util_debug_echo '##'
 	util_debug_echo "#"
 	util_debug_echo
 
@@ -184,7 +184,7 @@ base_var_dump () {
 
 	util_debug_echo
 	util_debug_echo "#"
-	util_debug_echo "##"
+	util_debug_echo '##'
 	util_debug_echo "### Tail: var_dump"
 	util_debug_echo "################################################################################"
 	util_debug_echo

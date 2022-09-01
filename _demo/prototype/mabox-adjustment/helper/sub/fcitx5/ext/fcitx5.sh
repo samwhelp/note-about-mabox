@@ -7,9 +7,9 @@
 mod_fcitx5_package_install () {
 
 	util_error_echo
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo '## mod_fcitx5_package_install'
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo
 
 	##util_error_echo "${THE_SUB_FCITX5_PACKAGE_LIST_INSTALL_FILE_PATH}"
@@ -36,9 +36,9 @@ mod_fcitx5_package_list_find_for_install () {
 mod_fcitx5_config_install () {
 
 	util_error_echo
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo '## mod_fcitx5_config_install'
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo
 
 	util_error_echo "mkdir -p ${HOME}/.config/fcitx5"
@@ -63,9 +63,9 @@ mod_fcitx5_config_install () {
 mod_fcitx5_asset_install () {
 
 	util_error_echo
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo '## mod_fcitx5_asset_install'
-	util_error_echo "##"
+	util_error_echo '##'
 	util_error_echo
 
 
