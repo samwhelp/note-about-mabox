@@ -20,7 +20,7 @@ THE_BASE_DIR_PATH="$(cd -- "$(dirname -- "$0")" ; pwd)"
 THE_BASE_DIR_PATH="${THE_BASE_DIR_PATH}/../../../ext"
 source "${THE_BASE_DIR_PATH}/init.sh"
 source "${THE_SYS_EXT_DIR_PATH}/init.sh"
-source "${THE_SUB_DIR_PATH}/sakura/ext/init.sh"
+source "${THE_SUB_DIR_PATH}/pcmanfm-qt/ext/init.sh"
 
 ##
 ### Tail: Init
