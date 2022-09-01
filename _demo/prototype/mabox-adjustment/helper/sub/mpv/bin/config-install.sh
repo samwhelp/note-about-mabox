@@ -33,7 +33,7 @@ source "${THE_SUB_DIR_PATH}/mpv/ext/init.sh"
 
 mod_main () {
 
-	sys_mpv_config_install
+	mod_mpv_config_install
 
 }
 

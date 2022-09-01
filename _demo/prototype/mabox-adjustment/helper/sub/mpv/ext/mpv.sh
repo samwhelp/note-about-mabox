@@ -1,39 +1,43 @@
 
 
 ################################################################################
-### Head: Sys / Mpv / Package / Install
+### Head: Mod / Mpv / Package / Install
 ##
 
-sys_mpv_package_install () {
+mod_mpv_package_install () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo '## sys_mpv_package_install'
+	util_error_echo '## mod_mpv_package_install'
 	util_error_echo "##"
 	util_error_echo
 
-	##util_error_echo "${THE_SUB_MPV_PACKAGE_LIST_FILE_PATH}"
+	##util_error_echo "${THE_SUB_MPV_PACKAGE_LIST_INSTALL_FILE_PATH}"
 
-	sys_package_list_install "${THE_SUB_MPV_PACKAGE_LIST_FILE_PATH}"
+	sys_package_list_install "${THE_SUB_MPV_PACKAGE_LIST_INSTALL_FILE_PATH}"
 
 }
 
+mod_mpv_package_list_find_for_install () {
+	sys_package_list_find "${THE_SUB_MPV_PACKAGE_LIST_INSTALL_FILE_PATH}"
+}
+
 ##
-### Tail: Sys / Mpv / Package / Install
+### Tail: Mod / Mpv / Package / Install
 ################################################################################
 
 
 
 
 ################################################################################
-### Head: Sys / Mpv / Config / Install
+### Head: Mod / Mpv / Config / Install
 ##
 
-sys_mpv_config_install () {
+mod_mpv_config_install () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo '## sys_mpv_config_install'
+	util_error_echo '## mod_mpv_config_install'
 	util_error_echo "##"
 	util_error_echo
 
@@ -46,17 +50,17 @@ sys_mpv_config_install () {
 }
 
 ##
-### Tail: Sys / Mpv / Config / Install
+### Tail: Mod / Mpv / Config / Install
 ################################################################################
 
 
 
 
 ################################################################################
-### Head: Sys / Mpv / Asset / Install
+### Head: Mod / Mpv / Asset / Install
 ##
 
-sys_mpv_asset_install () {
+mod_mpv_asset_install () {
 
 	util_error_echo
 	util_error_echo "##"
@@ -67,5 +71,5 @@ sys_mpv_asset_install () {
 }
 
 ##
-### Tail: Sys / Mpv / Asset / Install
+### Tail: Mod / Mpv / Asset / Install
 ################################################################################

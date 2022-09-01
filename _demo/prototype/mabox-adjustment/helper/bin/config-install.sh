@@ -33,7 +33,7 @@ source "${THE_SYS_SUB_DIR_PATH}/init.sh"
 
 mod_main () {
 
-	sys_main_config_install
+	mod_main_config_install
 
 }
 

@@ -38,9 +38,11 @@ mod_main () {
 	util_error_echo '################################################################################'
 	util_error_echo '### Head: package-install'
 	util_error_echo '##'
+	util_error_echo
 
 	${THE_SUB_OPENBOX_BIN_DIR_PATH}/package-install.sh
 
+	util_error_echo
 	util_error_echo '##'
 	util_error_echo '### Tail: package-install'
 	util_error_echo '################################################################################'
@@ -51,9 +53,11 @@ mod_main () {
 	util_error_echo '################################################################################'
 	util_error_echo '### Head: asset-install'
 	util_error_echo '##'
+	util_error_echo
 
 	${THE_SUB_OPENBOX_BIN_DIR_PATH}/asset-install.sh
 
+	util_error_echo
 	util_error_echo '##'
 	util_error_echo '### Tail: asset-install'
 	util_error_echo '################################################################################'
@@ -64,9 +68,11 @@ mod_main () {
 	util_error_echo '################################################################################'
 	util_error_echo '### Head: config-install'
 	util_error_echo '##'
+	util_error_echo
 
 	${THE_SUB_OPENBOX_BIN_DIR_PATH}/config-install.sh
 
+	util_error_echo
 	util_error_echo '##'
 	util_error_echo '### Tail: config-install'
 	util_error_echo '################################################################################'

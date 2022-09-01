@@ -20,6 +20,7 @@ THE_BASE_DIR_PATH="$(cd -- "$(dirname -- "$0")" ; pwd)"
 THE_BASE_DIR_PATH="${THE_BASE_DIR_PATH}/../ext"
 source "${THE_BASE_DIR_PATH}/init.sh"
 source "${THE_SYS_EXT_DIR_PATH}/init.sh"
+source "${THE_SYS_SUB_DIR_PATH}/init.sh"
 
 ##
 ### Tail: Init
@@ -32,7 +33,7 @@ source "${THE_SYS_EXT_DIR_PATH}/init.sh"
 
 mod_main () {
 
-	sys_main_package_install
+	mod_main_package_install
 
 }
 

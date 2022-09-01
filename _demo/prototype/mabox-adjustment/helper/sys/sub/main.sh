@@ -1,14 +1,14 @@
 
 
 ################################################################################
-### Head: Sys / Main / Package / Install
+### Head: Mod / Main / Package / Install
 ##
 
-sys_main_package_install () {
+mod_main_package_install () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo '## sys_main_package_install'
+	util_error_echo '## mod_main_package_install'
 	util_error_echo "##"
 	util_error_echo
 
@@ -16,29 +16,30 @@ sys_main_package_install () {
 }
 
 ##
-### Tail: Sys / Main / Package / Install
+### Tail: Mod / Main / Package / Install
 ################################################################################
 
 
 
 
 ################################################################################
-### Head: Sys / Main / Config / Install
+### Head: Mod / Main / Config / Install
 ##
 
-sys_main_config_install () {
+mod_main_config_install () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo '## sys_main_config_install'
+	util_error_echo '## mod_main_config_install'
 	util_error_echo "##"
 	util_error_echo
 	util_error_echo
 
-	sys_sakura_config_install
+	mod_openbox_config_install
+	mod_sakura_config_install
 	sys_pcmanfm_qt_config_install
-	sys_viewnior_config_install
-	sys_mpv_config_install
+	mod_viewnior_config_install
+	mod_mpv_config_install
 
 
 	util_error_echo
@@ -46,26 +47,26 @@ sys_main_config_install () {
 }
 
 ##
-### Tail: Sys / Main / Config / Install
+### Tail: Mod / Main / Config / Install
 ################################################################################
 
 
 
 
 ################################################################################
-### Head: Sys / Main / Asset / Install
+### Head: Mod / Main / Asset / Install
 ##
 
-sys_main_asset_install () {
+mod_main_asset_install () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo '## sys_main_asset_install'
+	util_error_echo '## mod_main_asset_install'
 	util_error_echo "##"
 	util_error_echo
 
 }
 
 ##
-### Tail: Sys / Main / Asset / Install
+### Tail: Mod / Main / Asset / Install
 ################################################################################
