@@ -40,7 +40,7 @@
 				<enabled>true</enabled>
 				<name>Terminal</name>
 			</startupnotify>
-			<command>xfce4-terminal --maximize</command>
+			<command>terminator</command>
 		</action>
 	</keybind>
 
@@ -51,6 +51,17 @@
 		</action>
 	</keybind>
 <?php
+/*
+	<keybind key="A-C-a">
+		<action name="Execute">
+			<startupnotify>
+				<enabled>true</enabled>
+				<name>Terminal</name>
+			</startupnotify>
+			<command>xfce4-terminal --maximize</command>
+		</action>
+	</keybind>
+*/
 /*
 	<keybind key="A-S-y">
 		<action name="Execute">
@@ -93,6 +104,6 @@
 				<enabled>true</enabled>
 				<name>Terminal</name>
 			</startupnotify>
-			<command>kitty</command>
+			<command>xfce4-terminal --maximize</command>
 		</action>
 	</keybind>
