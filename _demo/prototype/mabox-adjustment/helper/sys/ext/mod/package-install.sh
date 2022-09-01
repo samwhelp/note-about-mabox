@@ -51,7 +51,7 @@ sys_package_list_install_by_pamac () {
 
 	local package_list="$(sys_package_list_find "$1")"
 
-	util_error_echo "pamac install ${package_list}
+	util_error_echo "pamac install" ${package_list}
 	pamac install "${package_list}"
 
 }
