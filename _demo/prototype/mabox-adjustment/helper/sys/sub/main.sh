@@ -81,6 +81,16 @@ mod_main_asset_install () {
 	util_error_echo "##"
 	util_error_echo
 
+
+	mod_openbox_asset_install
+	mod_sakura_asset_install
+	mod_pcmanfm_qt_asset_install
+	mod_viewnior_asset_install
+	mod_mpv_asset_install
+
+
+	util_error_echo
+
 }
 
 ##
