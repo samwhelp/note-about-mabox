@@ -22,7 +22,8 @@ xset b off
 
 # Alias Super key to Super+Space for single-key menu.
 # See 'man xcape' for other possibilities.
-xcape -e 'Super_L=Super_L|space'
+# https://jgmenu.github.io/integration.html#superkey
+#xcape -e 'Super_L=Super_L|space'
 
 
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
