@@ -15,7 +15,7 @@
 
 <?php
 /*
-	<keybind key="A-S-z">
+	<keybind key="A-S-x">
 		<action name="Execute">
 			<startupnotify>
 				<enabled>true</enabled>
