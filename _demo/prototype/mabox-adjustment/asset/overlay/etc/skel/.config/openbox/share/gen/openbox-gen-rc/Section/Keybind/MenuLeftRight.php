@@ -1,4 +1,10 @@
 
+	<keybind key="W-F1">
+		<action name="Execute">
+			<command>mbhelper -s</command>
+		</action>
+	</keybind>
+
 
 	<keybind key="A-F5">
 		<action name="Execute">
