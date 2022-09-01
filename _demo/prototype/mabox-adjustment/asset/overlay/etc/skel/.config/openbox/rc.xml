@@ -1824,11 +1824,7 @@ h l
 	<!-- ## Terminal-Quake //-->
 	<keybind key="A-S-y">
 		<action name="Execute">
-			<startupnotify>
-				<enabled>true</enabled>
-				<name>Terminal-Quake</name>
-			</startupnotify>
-			<command>xfce4-terminal --drop-down</command>
+			<command>mabox-terminal</command>
 		</action>
 	</keybind>
 
