@@ -573,8 +573,8 @@ sub_run_self_actions () {
 
 
 
-sub_run_list () {
-	#util_error_echo "sub_run_list"
+sub_run_sub_list () {
+	#util_error_echo "sub_run_sub_list"
 	mod_mabox_adjustment_module_name_list "$@"
 }
 
@@ -617,7 +617,7 @@ Example:
 
 	## main
 
-		$ $cmd_name list
+		$ $cmd_name sub_list
 
 
 Debug:

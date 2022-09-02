@@ -1,1 +1,1 @@
-<?php include_once(__DIR__ . '/list/Usage.sh'); ?>
+<?php include_once(__DIR__ . '/sub_list/Usage.sh'); ?>
