@@ -4,9 +4,12 @@
 ### Head: Url
 ##
 
-# * https://github.com/samwhelp/note-about-mabox/blob/gh-pages/_demo/project/mabox-adjustment/tool/mabox-adjust-ctrl/remote-install.sh
-# * https://github.com/samwhelp/note-about-mabox/blob/gh-pages/_demo/project/mabox-adjustment/tool/mabox-adjust-ctrl/mabox-adjust-ctrl
-# * https://raw.githubusercontent.com/samwhelp/note-about-mabox/gh-pages/_demo/project/mabox-adjustment/tool/mabox-adjust-ctrl/mabox-adjust-ctrl
+##
+## * https://github.com/samwhelp/note-about-mabox/blob/gh-pages/_demo/project/mabox-adjustment/tool/mabox-adjust-ctrl/remote-install.sh
+## * https://raw.githubusercontent.com/samwhelp/note-about-mabox/gh-pages/_demo/project/mabox-adjustment/tool/mabox-adjust-ctrl/remote-install.sh
+## * https://github.com/samwhelp/note-about-mabox/blob/gh-pages/_demo/project/mabox-adjustment/tool/mabox-adjust-ctrl/mabox-adjust-ctrl
+## * https://raw.githubusercontent.com/samwhelp/note-about-mabox/gh-pages/_demo/project/mabox-adjustment/tool/mabox-adjust-ctrl/mabox-adjust-ctrl
+##
 
 ##
 ### Tail: Url
