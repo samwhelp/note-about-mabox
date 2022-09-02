@@ -573,6 +573,30 @@ act_run_self_actions () {
 
 
 
+act_run_install () {
+	util_error_echo "act_run_install"
+	#mod_mabox_adjustment_all_install "$@"
+}
+
+
+act_run_package_install () {
+	util_error_echo "act_run_package_install"
+	#mod_mabox_adjustment_all_package_install "$@"
+}
+
+
+act_run_config_install () {
+	util_error_echo "act_run_config_install"
+	#mod_mabox_adjustment_all_config_install "$@"
+}
+
+
+act_run_asset_install () {
+	util_error_echo "act_run_asset_install"
+	#mod_mabox_adjustment_all_asset_install "$@"
+}
+
+
 act_run_sub_list () {
 	#util_error_echo "act_run_sub_list"
 	mod_mabox_adjustment_module_name_list "$@"
@@ -582,6 +606,24 @@ act_run_sub_list () {
 act_run_sub_install () {
 	util_error_echo "act_run_sub_install"
 	#mod_mabox_adjustment_module_install "$@"
+}
+
+
+act_run_sub_package_install () {
+	util_error_echo "act_run_sub_package_install"
+	#mod_mabox_adjustment_module_package_install "$@"
+}
+
+
+act_run_sub_config_install () {
+	util_error_echo "act_run_sub_config_install"
+	#mod_mabox_adjustment_module_config_install "$@"
+}
+
+
+act_run_sub_asset_install () {
+	util_error_echo "act_run_sub_asset_install"
+	#mod_mabox_adjustment_module_asset_install "$@"
 }
 
 ##
@@ -621,11 +663,27 @@ Example:
 		$ $cmd_name self_actions
 
 
+	## main
+
+		$ $cmd_name install
+
+		$ $cmd_name package_install
+
+		$ $cmd_name confg_install
+
+		$ $cmd_name asset_install
+
 	## sub module
 
 		$ $cmd_name sub_list
 
-		$ $cmd_name sub_install
+		$ $cmd_name sub_install {module_name}
+
+		$ $cmd_name sub_package_install {module_name}
+
+		$ $cmd_name sub_confg_install {module_name}
+
+		$ $cmd_name sub_asset_install {module_name}
 
 
 Debug:
