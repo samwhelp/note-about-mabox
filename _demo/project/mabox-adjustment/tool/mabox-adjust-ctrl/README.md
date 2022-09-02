@@ -8,7 +8,7 @@ Run
 ``` sh
 mkdir -p "$HOME/.local/bin"
 
-wget 'https://raw.githubusercontent.com/samwhelp/note-about-mabox/gh-pages/_demo/project/openboxrc-profile/mabox-adjust-ctrl/mabox-adjust-ctrl' -O "$HOME/.local/bin/mabox-adjust-ctrl"
+wget 'https://raw.githubusercontent.com/samwhelp/note-about-mabox/gh-pages/_demo/project/mabox-adjustment/tool/mabox-adjust-ctrl/mabox-adjust-ctrl' -O "$HOME/.local/bin/mabox-adjust-ctrl"
 
 chmod 755 "$HOME/.local/bin/mabox-adjust-ctrl"
 ```

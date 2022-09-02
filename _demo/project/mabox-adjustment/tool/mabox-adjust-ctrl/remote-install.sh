@@ -4,9 +4,9 @@
 ### Head: Url
 ##
 
-# * https://github.com/samwhelp/note-about-mabox/blob/gh-pages/_demo/project/openboxrc-profile/mabox-adjust-ctrl/remote-install.sh
-# * https://github.com/samwhelp/note-about-mabox/blob/gh-pages/_demo/project/openboxrc-profile/mabox-adjust-ctrl/mabox-adjust-ctrl
-# * https://raw.githubusercontent.com/samwhelp/note-about-mabox/gh-pages/_demo/project/openboxrc-profile/mabox-adjust-ctrl/mabox-adjust-ctrl
+# * https://github.com/samwhelp/note-about-mabox/blob/gh-pages/_demo/project/mabox-adjustment/tool/mabox-adjust-ctrl/remote-install.sh
+# * https://github.com/samwhelp/note-about-mabox/blob/gh-pages/_demo/project/mabox-adjustment/tool/mabox-adjust-ctrl/mabox-adjust-ctrl
+# * https://raw.githubusercontent.com/samwhelp/note-about-mabox/gh-pages/_demo/project/mabox-adjustment/tool/mabox-adjust-ctrl/mabox-adjust-ctrl
 
 ##
 ### Tail: Url
@@ -91,8 +91,8 @@ base_var_init () {
 
 
 	## Target
-	## https://github.com/samwhelp/note-about-mabox/blob/gh-pages/_demo/project/openboxrc-profile/mabox-adjust-ctrl/mabox-adjust-ctrl
-	THE_TARGET_DOWNLOAD_URL='https://raw.githubusercontent.com/samwhelp/note-about-mabox/gh-pages/_demo/project/openboxrc-profile/mabox-adjust-ctrl/mabox-adjust-ctrl'
+	## https://github.com/samwhelp/note-about-mabox/blob/gh-pages/_demo/project/mabox-adjustment/tool/mabox-adjust-ctrl/mabox-adjust-ctrl
+	THE_TARGET_DOWNLOAD_URL='https://raw.githubusercontent.com/samwhelp/note-about-mabox/gh-pages/_demo/project/mabox-adjustment/tool/mabox-adjust-ctrl/mabox-adjust-ctrl'
 
 
 	THE_TARGET_FILE_NAME="mabox-adjust-ctrl"
