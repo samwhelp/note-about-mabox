@@ -9,9 +9,6 @@ sys_mabox_adjustment_module_name_list () {
 	#util_error_echo "sys_mabox_adjustment_module_name_list"
 	#util_error_echo "$@"
 
-	##
-	## mabox-adjust-ctrl list
-	##
 
 	local choose="$1"
 	local base_dir_path="$1"
@@ -56,4 +53,51 @@ sys_mabox_adjustment_module_name_list () {
 
 ##
 ### Tail: Sys / Module Name List
+################################################################################
+
+
+################################################################################
+### Head: Sys / Target Script Execute
+##
+
+sys_mabox_adjustment_target_script_execute () {
+
+	#util_error_echo "sys_mabox_adjustment_target_script_execute"
+	#util_error_echo "$@"
+
+
+	local choose_file_path="$1"
+	local target_file_path="$1"
+
+
+	if ! target_file_path="$(util_check_target_file_exist $choose_file_path)"; then
+		util_error_echo
+		util_error_echo '##'
+		util_error_echo '## Script Not Exist: '
+		util_error_echo '##'
+		util_error_echo
+		util_error_echo "You choose file: [${choose_file_path}]"
+		util_error_echo
+		return 1
+	fi
+
+
+	if [ -x "$target_file_path" ]; then
+		util_error_echo
+		util_error_echo '##'
+		util_error_echo '## Execute Script: '
+		util_error_echo '##'
+		util_error_echo
+		util_error_echo "Script file: [${target_file_path}]"
+		util_error_echo
+
+		"$target_file_path"
+	fi
+
+	return 0
+
+}
+
+##
+### Tail: Sys / Target Script Execute
 ################################################################################

@@ -1,7 +1,46 @@
 
 
 ################################################################################
-### Head: Util / Dir Check
+### Head: Util / File Exist Check
+##
+
+util_check_target_file_exist () {
+
+	local target="$1"
+
+	##
+	## $ help test
+	##
+
+	#if [ "none${target}" = "none" ]; then
+	#	return 1
+	#fi
+
+	if [ -z "${target}" ]; then
+		util_error_echo
+		util_error_echo '##'
+		util_error_echo '## util_check_target_file_exist: Empty input'
+		util_error_echo '##'
+		util_error_echo
+		return 1
+	fi
+
+	if [ -f "${target}" ]; then
+		echo "${target}"
+		return 0
+	fi
+
+	return 1
+
+}
+
+##
+### Tail: Util / File Exist Check
+################################################################################
+
+
+################################################################################
+### Head: Util / Dir Exist Check
 ##
 
 util_check_target_dir_exist () {
@@ -35,9 +74,8 @@ util_check_target_dir_exist () {
 }
 
 ##
-### Tail: Util / Dir Check
+### Tail: Util / Dir Exist Check
 ################################################################################
-
 
 
 ################################################################################
