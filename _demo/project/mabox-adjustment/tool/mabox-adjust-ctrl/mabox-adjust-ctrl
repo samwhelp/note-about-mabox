@@ -626,6 +626,30 @@ act_run_sub_asset_install () {
 	#mod_mabox_adjustment_module_asset_install "$@"
 }
 
+
+act_run_fzf_install () {
+	util_error_echo "act_run_fzf_install"
+	#mod_mabox_adjustment_module_install "$@"
+}
+
+
+act_run_fzf_package_install () {
+	util_error_echo "act_run_fzf_package_install"
+	#mod_mabox_adjustment_module_package_install "$@"
+}
+
+
+act_run_fzf_config_install () {
+	util_error_echo "act_run_fzf_config_install"
+	#mod_mabox_adjustment_module_config_install "$@"
+}
+
+
+act_run_fzf_asset_install () {
+	util_error_echo "act_run_fzf_asset_install"
+	#mod_mabox_adjustment_module_asset_install "$@"
+}
+
 ##
 ### Tail: SubCmd
 ################################################################################
@@ -663,6 +687,7 @@ Example:
 		$ $cmd_name self_actions
 
 
+
 	## main
 
 		$ $cmd_name install
@@ -672,6 +697,7 @@ Example:
 		$ $cmd_name confg_install
 
 		$ $cmd_name asset_install
+
 
 	## sub module
 
@@ -684,6 +710,17 @@ Example:
 		$ $cmd_name sub_confg_install {module_name}
 
 		$ $cmd_name sub_asset_install {module_name}
+
+
+	## fzf module
+
+		$ $cmd_name fzf_install
+
+		$ $cmd_name fzf_package_install
+
+		$ $cmd_name fzf_confg_install
+
+		$ $cmd_name fzf_asset_install
 
 
 Debug:
