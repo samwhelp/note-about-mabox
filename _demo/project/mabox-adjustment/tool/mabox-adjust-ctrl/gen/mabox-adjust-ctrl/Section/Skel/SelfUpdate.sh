@@ -90,7 +90,7 @@ main_version () {
 }
 
 util_self_actions () {
-	grep '^sub_run' "${THE_CMD_FILE_PATH}" | cut -d ' ' -f 1 | awk -F 'sub_run_' '{print $2}' | sort -u
+	grep '^act_run' "${THE_CMD_FILE_PATH}" | cut -d ' ' -f 1 | awk -F 'act_run_' '{print $2}' | sort -u
 }
 
 ##

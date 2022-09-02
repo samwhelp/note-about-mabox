@@ -4,19 +4,19 @@
 ### Head: SubCmd
 ##
 
-sub_run_help () {
+act_run_help () {
 	main_usage "$@"
 }
 
-sub_run_version () {
+act_run_version () {
 	main_version "$@"
 }
 
-sub_run_self_update () {
+act_run_self_update () {
 	util_self_update "$@"
 }
 
-sub_run_self_actions () {
+act_run_self_actions () {
 	util_self_actions "$@"
 }
 

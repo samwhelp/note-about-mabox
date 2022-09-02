@@ -264,7 +264,7 @@ util_stop_all_by_killall () {
 ##
 
 sub_cmd_find_function_name () {
-	echo "sub_run_$1"
+	echo "act_run_$1"
 }
 
 ##

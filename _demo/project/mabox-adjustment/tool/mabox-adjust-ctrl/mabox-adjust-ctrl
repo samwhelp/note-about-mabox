@@ -287,7 +287,7 @@ util_stop_all_by_killall () {
 ##
 
 sub_cmd_find_function_name () {
-	echo "sub_run_$1"
+	echo "act_run_$1"
 }
 
 ##
@@ -385,7 +385,7 @@ main_version () {
 }
 
 util_self_actions () {
-	grep '^sub_run' "${THE_CMD_FILE_PATH}" | cut -d ' ' -f 1 | awk -F 'sub_run_' '{print $2}' | sort -u
+	grep '^act_run' "${THE_CMD_FILE_PATH}" | cut -d ' ' -f 1 | awk -F 'act_run_' '{print $2}' | sort -u
 }
 
 ##
@@ -555,26 +555,26 @@ mod_mabox_adjustment_module_name_list () {
 ### Head: SubCmd
 ##
 
-sub_run_help () {
+act_run_help () {
 	main_usage "$@"
 }
 
-sub_run_version () {
+act_run_version () {
 	main_version "$@"
 }
 
-sub_run_self_update () {
+act_run_self_update () {
 	util_self_update "$@"
 }
 
-sub_run_self_actions () {
+act_run_self_actions () {
 	util_self_actions "$@"
 }
 
 
 
-sub_run_sub_list () {
-	#util_error_echo "sub_run_sub_list"
+act_run_sub_list () {
+	#util_error_echo "act_run_sub_list"
 	mod_mabox_adjustment_module_name_list "$@"
 }
 
