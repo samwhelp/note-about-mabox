@@ -31,8 +31,6 @@ Example:
 
 		$ $cmd_name self_actions
 
-
-	## main
 <?php include_once(dirname(__DIR__) . '/Model/Usage.sh'); ?>
 
 

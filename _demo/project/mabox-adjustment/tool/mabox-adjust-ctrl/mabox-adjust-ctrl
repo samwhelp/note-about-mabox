@@ -578,6 +578,12 @@ act_run_sub_list () {
 	mod_mabox_adjustment_module_name_list "$@"
 }
 
+
+act_run_sub_install () {
+	util_error_echo "act_run_sub_install"
+	#mod_mabox_adjustment_module_install "$@"
+}
+
 ##
 ### Tail: SubCmd
 ################################################################################
@@ -615,9 +621,11 @@ Example:
 		$ $cmd_name self_actions
 
 
-	## main
+	## sub module
 
 		$ $cmd_name sub_list
+
+		$ $cmd_name sub_install
 
 
 Debug:
