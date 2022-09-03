@@ -13,6 +13,11 @@ mod_arch_package_build () {
 	util_error_echo
 
 
+	local pkgbuild_dir_path="${THE_SHARE_DIR_PATH}/packaging/arch/mabox-adjustment-core"
+
+
+	echo "${pkgbuild_dir_path}"
+
 }
 
 ##
