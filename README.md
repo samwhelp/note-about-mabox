@@ -13,7 +13,7 @@
 
 ## Mabox Linux
 
-* [Mabox Linux](https://maboxlinux.org/)
+* [Mabox Linux](https://maboxlinux.org/) ([More Link](https://samwhelp.github.io/note-about-mabox/read/link/maboxlinux.html))
 
 
 ## Mabox Adjustment
