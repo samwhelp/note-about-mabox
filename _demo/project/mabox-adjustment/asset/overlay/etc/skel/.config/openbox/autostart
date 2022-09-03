@@ -36,6 +36,13 @@ xset b off
 #(sleep 2s && nitrogen --restore) &
 ~/.fehbg &
 
+## Volume Control
+## cp /etc/xdg/autostart/mate-volume-control-status-icon.desktop
+## to ~/.config/autostart/mate-volume-control-status-icon.desktop
+## edit: OnlyShowIn=MATE;OPENBOX;
+#mate-volume-control-status-icon &
+
+
 ## Optionally enable file manager in daemon mode for automounting
 #(sleep 1s && pcmanfm -d) &
 (sleep 1s && pcmanfm-qt -d) &
