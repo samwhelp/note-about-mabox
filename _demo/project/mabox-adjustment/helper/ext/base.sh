@@ -106,6 +106,10 @@ base_var_init () {
 	THE_PACKAGE_LIST_INSTALL_FILE_NAME="package-list-install.txt"
 	THE_PACKAGE_LIST_REMOVE_FILE_NAME="package-list-remove.txt"
 
+
+
+
+
 }
 
 
