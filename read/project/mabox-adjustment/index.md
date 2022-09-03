@@ -20,12 +20,12 @@ parent: 專案
 
 | Tool | Project |
 | --- | --- |
-| [mabox-adjust-ctrl](mabox-adjust-ctrl) | [project](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/tool/mabox-adjust-ctrl) |
+| [mabox-adjust-ctrl](https://samwhelp.github.io/note-about-mabox/read/project/mabox-adjustment/mabox-adjust-ctrl.html) | [project](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/tool/mabox-adjust-ctrl) |
 
 
 ## System
 
 | System | Project |
 | --- | --- |
-| [mabox-adjustment-packaging](mabox-adjustment-packaging) | [project](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment-system/mabox-adjustment-packaging)
-| [mabox-adjustment-repository](mabox-adjustment-repositoryl) | [project](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment-system/mabox-adjustment-repository)
+| [mabox-adjustment-packaging](https://samwhelp.github.io/note-about-mabox/read/project/mabox-adjustment/mabox-adjustment-packaging.html) | [project](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment-system/mabox-adjustment-packaging)
+| [mabox-adjustment-repository](https://samwhelp.github.io/note-about-mabox/read/project/mabox-adjustment/mabox-adjustment-repository.html) | [project](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment-system/mabox-adjustment-repository)
