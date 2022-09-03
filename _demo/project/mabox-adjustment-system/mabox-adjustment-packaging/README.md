@@ -1,8 +1,8 @@
 # mabox-adjustment-packaging
 
-* [mabox-adjustment-packaging](https://github.com/samwhelp/mabox-adjustment-packaging)
-* [mabox-adjustment-repository](https://samwhelp.github.io/mabox-adjustment-repository/) ([GitHub](https://github.com/samwhelp/mabox-adjustment-repository))
-* [system-modeling](https://samwhelp.github.io/system-modeling/) ([GitHub](https://github.com/samwhelp/system-modeling))
+* [mabox-adjustment-packaging](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment-system/mabox-adjustment-packaging)
+* [mabox-adjustment-repository](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment-system/mabox-adjustment-repository)
+
 
 
 ## pack
