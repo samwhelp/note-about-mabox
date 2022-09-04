@@ -44,8 +44,16 @@ mod_pcmanfm_config_install () {
 	util_error_echo "mkdir -p ${HOME}/.config/pcmanfm/default"
 	mkdir -p "${HOME}/.config/pcmanfm/default"
 
-	#util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/pcmanfm/pcmanfm.conf ${HOME}/.config/pcmanfm/pcmanfm.conf"
-	#install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/pcmanfm/pcmanfm.conf" "${HOME}/.config/pcmanfm/pcmanfm.conf"
+	util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/pcman/pcmanfm/default/pcmanfm.conf ${HOME}/.config/pcmanfm/default/pcmanfm.conf"
+	install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/pcmanfm/default/pcmanfm.conf" "${HOME}/.config/pcmanfm/default/pcmanfm.conf"
+
+
+	#util_error_echo "cp -rf ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/pcmanfm/. ${HOME}/.config/pcmanfm/"
+	#cp -rf "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/pcmanfm/." "${HOME}/.config/pcmanfm/"
+
+	#util_error_echo "cp -rfv ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/pcmanfm/. ${HOME}/.config/pcmanfm/"
+	#cp -rfv "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/pcmanfm/." "${HOME}/.config/pcmanfm/"
+
 
 }
 
