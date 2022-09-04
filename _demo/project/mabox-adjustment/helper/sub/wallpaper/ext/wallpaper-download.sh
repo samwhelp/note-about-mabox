@@ -42,6 +42,8 @@ mod_wallpaper_asset_install_wallpaper_download_each () {
 
 	mod_wallpaper_asset_install_wallpaper_download_the_z-w-gu-bandageb5f
 
+	mod_wallpaper_asset_install_wallpaper_download_the_Qu_Que_Ling
+
 	mod_wallpaper_asset_install_wallpaper_download_the_Fareeha_Amari
 
 }
@@ -113,6 +115,19 @@ mod_wallpaper_asset_install_wallpaper_download_the_Fareeha_Amari () {
 
 
 }
+
+
+mod_wallpaper_asset_install_wallpaper_download_the_Qu_Que_Ling () {
+
+	##
+	## 曲·雀翎 (Qu Que Ling)
+	## * https://grayraven.tw/info/list_353_1.html
+	##
+
+	wget -c 'http://cdnimg01.yingxiong.com/M00/1A/10/ChpCl2CZD0SECU6sAAAAAIlzqu8408.jpg' -O 'Qu_Que_Ling.jpg'
+
+}
+
 
 ##
 ### Tail: Mod / Wallpaper / Dwonload
