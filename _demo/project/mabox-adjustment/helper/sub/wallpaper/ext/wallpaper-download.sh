@@ -128,7 +128,6 @@ mod_wallpaper_asset_install_wallpaper_download_the_Qu_Que_Ling () {
 
 }
 
-
 ##
 ### Tail: Mod / Wallpaper / Dwonload
 ################################################################################
