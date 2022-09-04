@@ -151,6 +151,10 @@ sys_gruvbox_theme_asset_install_gruvbox_icon_install () {
 	rm -rf "${HOME}/.icons/Gruvbox-Dark/.git"
 
 	#rsync -r --exclude '.git' "${HOME}/tmp/Icons_Gruvbox_Source" "${HOME}/.icons/Gruvbox-Dark"
+
+
+	gtk-update-icon-cache -f -t "${HOME}/.icons/Gruvbox-Dark"
+
 }
 
 
