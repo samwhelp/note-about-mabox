@@ -95,11 +95,24 @@ sys_arch_package_build_mabox_adjustment_core_copy_asset () {
 
 	local plan_target_dir_path="$pkgbuild_target_dir_path/asset/overlay/usr/share/mabox-adjustment"
 
+	local bin_target_dir_path="$pkgbuild_target_dir_path/asset/overlay/usr/bin"
+
+
 	util_error_echo "mkdir -p ${plan_target_dir_path}"
 	mkdir -p "${plan_target_dir_path}"
 
 	util_error_echo "cp -rf ${plan_source_dir_path}/. ${plan_target_dir_path}"
 	cp -rf "${plan_source_dir_path}/." "${plan_target_dir_path}"
+
+
+
+	util_error_echo "mkdir -p ${bin_target_dir_path}"
+	mkdir -p "${bin_target_dir_path}"
+
+	util_error_echo "install -Dm755 ${plan_target_dir_path}/tool/mabox-adjust-ctrl/mabox-adjust-ctrl ${bin_target_dir_path}/mabox-adjust-ctrl"
+	install -Dm755 "${plan_target_dir_path}/tool/mabox-adjust-ctrl/mabox-adjust-ctrl" "${bin_target_dir_path}/mabox-adjust-ctrl"
+
+
 
 }
 
