@@ -107,6 +107,7 @@ base_var_init () {
 	THE_PACKAGE_LIST_REMOVE_FILE_NAME="package-list-remove.txt"
 
 
+	THE_WALLPAPER_LIST_DOWNLOAD_FILE_NAME="wallpaper-list.txt"
 
 
 
@@ -184,6 +185,10 @@ base_var_dump () {
 
 	util_debug_echo "THE_PACKAGE_LIST_INSTALL_FILE_NAME=$THE_PACKAGE_LIST_INSTALL_FILE_NAME"
 	util_debug_echo "THE_PACKAGE_LIST_REMOVE_FILE_NAME=$THE_PACKAGE_LIST_REMOVE_FILE_NAME"
+
+
+	util_debug_echo "THE_WALLPAPER_LIST_DOWNLOAD_FILE_NAME=$THE_WALLPAPER_LIST_DOWNLOAD_FILE_NAME"
+
 
 
 	util_debug_echo

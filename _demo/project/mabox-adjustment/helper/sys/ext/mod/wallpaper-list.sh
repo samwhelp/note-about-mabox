@@ -1,14 +1,14 @@
 
 
 ################################################################################
-### Head: Util / Package List
+### Head: Util / Wallpaper List
 ##
 
 
-THE_DEFAULT_PACKAGE_LIST_FILE_NAME="${THE_DEFAULT_PACKAGE_LIST_FILE_NAME:-"package-list.txt"}"
+THE_DEFAULT_WALLPAPER_LIST_FILE_NAME="${THE_DEFAULT_WALLPAPER_LIST_FILE_NAME:-"wallpaper-list.txt"}"
 
 
-util_package_list_file_path_find () {
+util_wallpaper_list_file_path_find () {
 
 	local list_file_path="$1"
 
@@ -17,7 +17,7 @@ util_package_list_file_path_find () {
 	##
 
 	if [ -z "${list_file_path}" ]; then
-		list_file_path="$THE_DEFAULT_PACKAGE_LIST_FILE_NAME"
+		list_file_path="$THE_DEFAULT_WALLPAPER_LIST_FILE_NAME"
 		echo "${list_file_path}"
 	fi
 
@@ -26,7 +26,8 @@ util_package_list_file_path_find () {
 	##
 
 	if ! [ -f "${list_file_path}" ]; then
-		list_file_path="$THE_DEFAULT_PACKAGE_LIST_FILE_NAME"
+		list_file_path="$THE_DEFAULT_WALLPAPER_LIST_FILE_NAME"
+
 	fi
 
 
@@ -36,7 +37,7 @@ util_package_list_file_path_find () {
 	##
 
 	if ! [ -f "${list_file_path}" ]; then
-		echo "package-list.txt"
+		echo "wallpaper-list.txt"
 	else
 		echo "${list_file_path}"
 	fi
@@ -46,26 +47,26 @@ util_package_list_file_path_find () {
 }
 
 ##
-### Tail: Util / Package List
+### Tail: Util / Wallpaper List
 ################################################################################
 
 
 ################################################################################
-### Head: Sys / Package List
+### Head: Sys / Wallpaper List
 ##
 
-sys_package_list_find () {
+sys_wallpaper_list_find () {
 	local choose_file_path="$1"
-	local list_file_path="$(util_package_list_file_path_find "${choose_file_path}")"
+	local list_file_path="$(util_wallpaper_list_file_path_find "${choose_file_path}")"
 	util_list_file_load "${list_file_path}"
 }
 
-sys_package_list_find_raw () {
+sys_wallpaper_list_find_raw () {
 	local choose_file_path="$1"
-	local list_file_path="$(util_package_list_file_path_find "${choose_file_path}")"
+	local list_file_path="$(util_wallpaper_list_file_path_find "${choose_file_path}")"
 	cat "${list_file_path}"
 }
 
 ##
-### Tail: Sys / Package List
+### Tail: Sys / Wallpaper List
 ################################################################################
