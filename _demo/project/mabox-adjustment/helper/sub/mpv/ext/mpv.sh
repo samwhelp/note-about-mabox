@@ -47,6 +47,15 @@ mod_mpv_config_install () {
 	util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/mpv/mpv.conf ${HOME}/.config/mpv/mpv.conf"
 	install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/mpv/mpv.conf" "${HOME}/.config/mpv/mpv.conf"
 
+
+
+	#util_error_echo "cp -rf ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/mpv/. ${HOME}/.config/mpv/"
+	#cp -rf "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/mpv/." "${HOME}/.config/mpv/"
+
+	#util_error_echo "cp -rfv ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/mpv/. ${HOME}/.config/mpv/"
+	#cp -rfv "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/mpv/." "${HOME}/.config/mpv/"
+
+
 }
 
 ##
