@@ -48,6 +48,14 @@ mod_sakura_config_install () {
 	util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/sakura/sakura.conf ${HOME}/.config/sakura/sakura.conf"
 	install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/sakura/sakura.conf" "${HOME}/.config/sakura/sakura.conf"
 
+
+	#util_error_echo "cp -rf ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/sakura/. ${HOME}/.config/sakura/"
+	#cp -rf "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/sakura/." "${HOME}/.config/sakura/"
+
+	#util_error_echo "cp -rfv ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/sakura/. ${HOME}/.config/sakura/"
+	#cp -rfv "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/sakura/." "${HOME}/.config/sakura/"
+
+
 }
 
 ##
