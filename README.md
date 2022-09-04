@@ -26,6 +26,12 @@
 | [mabox-adjustment](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment) |
 
 
+| mabox-adjustment (config) |
+| --- |
+| [Overlay (root)](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/)|
+| [Dotfiles (home)](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel)|
+
+
 ### Tool
 
 | Tool | Project |
