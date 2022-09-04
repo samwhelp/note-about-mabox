@@ -26,11 +26,11 @@
 | [mabox-adjustment](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment) |
 
 
-| mabox-adjustment (config) |
-| --- |
-| [overlay (root)](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/)|
-| [dotfiles (home)](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel)|
-| [obthemes (my)](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/blob)|
+| mabox-adjustment (config) | Mabox Linux |
+| --- | --- |
+| [overlay (root)](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/)| [overlay (root)](https://git.maboxlinux.org/Mabox/iso-profiles/src/branch/master/mabox-linux/desktop-overlay) |
+| [dotfiles (home)](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel)| [dotfiles (home)](https://git.maboxlinux.org/Mabox/iso-profiles/src/branch/master/mabox-linux/desktop-overlay/etc/skel) |
+| [obthemes (my remix)](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/blob)| [obthemes (mabox)](https://git.maboxlinux.org/Mabox/iso-profiles/src/branch/master/mabox-linux/desktop-overlay/etc/skel/.config/blob) |
 
 
 
