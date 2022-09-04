@@ -47,6 +47,14 @@ mod_pcmanfm_qt_config_install () {
 	util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/pcman/pcmanfm-qt/default/settings.conf ${HOME}/.config/pcmanfm-qt/default/settings.conf"
 	install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/pcmanfm-qt/default/settings.conf" "${HOME}/.config/pcmanfm-qt/default/settings.conf"
 
+
+	#util_error_echo "cp -rf ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/pcmanfm-qt/. ${HOME}/.config/pcmanfm-qt/"
+	#cp -rf "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/pcmanfm-qt/." "${HOME}/.config/pcmanfm-qt/"
+
+	#util_error_echo "cp -rfv ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/pcmanfm-qt/. ${HOME}/.config/pcmanfm-qt/"
+	#cp -rfv "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/pcmanfm-qt/." "${HOME}/.config/pcmanfm-qt/"
+
+
 }
 
 ##
