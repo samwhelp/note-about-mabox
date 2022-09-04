@@ -44,8 +44,12 @@ mod_obthemes_config_install () {
 	util_error_echo "mkdir -p ${HOME}/.config/blob"
 	mkdir -p "${HOME}/.config/blob"
 
-	#util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/obthemes/obthemes.conf ${HOME}/.config/obthemes/obthemes.conf"
-	#install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/obthemes/obthemes.conf" "${HOME}/.config/obthemes/obthemes.conf"
+	util_error_echo "cp -rf ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/blob/. ${HOME}/.config/blob/"
+	cp -rf "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/blob/." "${HOME}/.config/blob/"
+
+
+	#util_error_echo "cp -rfv ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/blob/. ${HOME}/.config/blob/"
+	#cp -rfv "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/blob/." "${HOME}/.config/blob/"
 
 }
 
