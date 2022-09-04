@@ -44,8 +44,26 @@ mod_rofi_config_install () {
 	util_error_echo "mkdir -p ${HOME}/.config/rofi"
 	mkdir -p "${HOME}/.config/rofi"
 
-	#util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/rofi/rofi.conf ${HOME}/.config/rofi/rofi.conf"
-	#install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/rofi/rofi.conf" "${HOME}/.config/rofi/rofi.conf"
+	util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/rofi/config.rasi ${HOME}/.config/rofi/config.rasi"
+	install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/rofi/config.rasi" "${HOME}/.config/rofi/config.rasi"
+
+
+	#util_error_echo "cp -rf ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/rofi/. ${HOME}/.config/rofi/"
+	#cp -rf "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/rofi/." "${HOME}/.config/rofi/"
+
+	#util_error_echo "cp -rfv ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/rofi/. ${HOME}/.config/rofi/"
+	#cp -rfv "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/rofi/." "${HOME}/.config/rofi/"
+
+
+	util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.local/share/applications/rofi-show-drun.desktop ${HOME}/.local/share/applications/rofi-show-drun.desktop"
+	install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.local/share/applications/rofi-show-drun.desktop" "${HOME}/.local/share/applications/rofi-show-drun.desktop"
+
+	util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.local/share/applications/rofi-show-window.desktop ${HOME}/.local/share/applications/rofi-show-window.desktop"
+	install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.local/share/applications/rofi-show-window.desktop" "${HOME}/.local/share/applications/rofi-show-window.desktop"
+
+	util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.local/share/applications/rofi-show-run.desktop ${HOME}/.local/share/applications/rofi-show-run.desktop"
+	install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.local/share/applications/rofi-show-run.desktop" "${HOME}/.local/share/applications/rofi-show-run.desktop"
+
 
 }
 
