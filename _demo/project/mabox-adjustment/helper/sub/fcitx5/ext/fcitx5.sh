@@ -44,8 +44,30 @@ mod_fcitx5_config_install () {
 	util_error_echo "mkdir -p ${HOME}/.config/fcitx5"
 	mkdir -p "${HOME}/.config/fcitx5"
 
-	#util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/fcitx5/fcitx5.conf ${HOME}/.config/fcitx5/fcitx5.conf"
-	#install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/fcitx5/fcitx5.conf" "${HOME}/.config/fcitx5/fcitx5.conf"
+
+	#util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/fcitx5/profile ${HOME}/.config/fcitx5/profile"
+	#install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/fcitx5/profile" "${HOME}/.config/fcitx5/profile"
+
+	#util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/fcitx5/config ${HOME}/.config/fcitx5/config"
+	#install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/fcitx5/config" "${HOME}/.config/fcitx5/config"
+
+
+	util_error_echo "cp -rf ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/fcitx5/. ${HOME}/.config/fcitx5/"
+	cp -rf "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/fcitx5/." "${HOME}/.config/fcitx5/"
+
+	#util_error_echo "cp -rfv ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/fcitx5/. ${HOME}/.config/fcitx5/"
+	#cp -rfv "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/fcitx5/." "${HOME}/.config/fcitx5/"
+
+
+
+	#util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/fcitx5/profile ${HOME}/.config/fcitx5/profile"
+	#install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/fcitx5/profile" "${HOME}/.config/fcitx5/profile"
+
+
+
+	util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.pam_environment ${HOME}/.pam_environment"
+	install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.pam_environment" "${HOME}/.pam_environment"
+
 
 }
 
