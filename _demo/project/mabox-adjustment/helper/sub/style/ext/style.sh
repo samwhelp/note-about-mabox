@@ -41,11 +41,51 @@ mod_style_config_install () {
 	util_error_echo '##'
 	util_error_echo
 
-	#util_error_echo "mkdir -p ${HOME}/.config/style"
-	#mkdir -p "${HOME}/.config/style"
 
-	#util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/style/style.conf ${HOME}/.config/style/style.conf"
-	#install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/style/style.conf" "${HOME}/.config/style/style.conf"
+	##
+	## gtk2
+	##
+
+	util_error_echo "mkdir -p ${HOME}/.config/gtk-2.0"
+	mkdir -p "${HOME}/.config/gtk-2.0"
+
+	util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.gtkrc-2.0 ${HOME}/.gtkrc-2.0"
+	install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.gtkrc-2.0" "${HOME}/.gtkrc-2.0"
+
+	util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.gtkrc-2.0.mine ${HOME}/.gtkrc-2.0.mine"
+	install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.gtkrc-2.0.mine" "${HOME}/.gtkrc-2.0.mine"
+
+
+	##
+	## gtk3
+	##
+
+	util_error_echo "mkdir -p ${HOME}/.config/gtk-3.0"
+	mkdir -p "${HOME}/.config/gtk-3.0"
+
+	util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/gtk-3.0/settings.ini ${HOME}/.config/gtk-3.0/settings.ini"
+	install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/gtk-3.0/settings.ini" "${HOME}/.config/gtk-3.0/settings.ini"
+
+
+
+	##
+	## xsettingsd
+	##
+
+	util_error_echo "mkdir -p ${HOME}/.config/xsettingsd"
+	mkdir -p "${HOME}/.config/xsettingsd"
+
+	util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/xsettingsd/xsettingsd.conf ${HOME}/.config/xsettingsd/xsettingsd.conf"
+	install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/xsettingsd/xsettingsd.conf" "${HOME}/.config/xsettingsd/xsettingsd.conf"
+
+
+	##
+	## qt-style-follow-gtk
+	##
+
+	util_error_echo "install sudo -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/profile.d/qt-style-follow-gtk.sh /etc/profile.d/qt-style-follow-gtk.sh"
+	sudo install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/profile.d/qt-style-follow-gtk.sh" "/etc/profile.d/qt-style-follow-gtk.sh"
+
 
 }
 
