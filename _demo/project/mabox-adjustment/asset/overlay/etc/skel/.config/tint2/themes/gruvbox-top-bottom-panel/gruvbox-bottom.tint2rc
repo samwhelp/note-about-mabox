@@ -137,7 +137,7 @@ task_active_background_id = 3
 task_iconified_background_id = 0
 mouse_left = toggle_iconify
 mouse_middle = close
-mouse_right = close
+mouse_right = maximize_restore
 mouse_scroll_up = next_task
 mouse_scroll_down = prev_task
 
