@@ -41,11 +41,24 @@ mod_xdg_config_install () {
 	util_error_echo '##'
 	util_error_echo
 
-	#util_error_echo "mkdir -p ${HOME}/.config/xdg"
-	#mkdir -p "${HOME}/.config/xdg"
+	util_error_echo "mkdir -p ${HOME}/Templates"
+	mkdir -p "${HOME}/Templates"
 
-	#util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/xdg/xdg.conf ${HOME}/.config/xdg/xdg.conf"
-	#install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/xdg/xdg.conf" "${HOME}/.config/xdg/xdg.conf"
+	#util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/Templates/empty.txt ${HOME}/Templates/empty.txt"
+	#install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/Templates/empty.txt" "${HOME}/Templates/empty.txt"
+
+	#util_error_echo "install -Dm755 ${THE_OVERLAY_DIR_PATH}/etc/skel/Templates/bash.sh ${HOME}/Templates/bash.sh"
+	#install -Dm755 "${THE_OVERLAY_DIR_PATH}/etc/skel/Templates/bash.sh" "${HOME}/Templates/bash.sh"
+
+	#util_error_echo "install -Dm755 ${THE_OVERLAY_DIR_PATH}/etc/skel/Templates/pygithub.py ${HOME}/Templates/pygithub.py"
+	#install -Dm755 "${THE_OVERLAY_DIR_PATH}/etc/skel/Templates/pygithub.py" "${HOME}/Templates/pygithub.py"
+
+
+	util_error_echo "cp -rf ${THE_OVERLAY_DIR_PATH}/etc/skel/Templates/. ${HOME}/Templates/"
+	cp -rf "${THE_OVERLAY_DIR_PATH}/etc/skel/Templates/." "${HOME}/Templates/"
+
+	#util_error_echo "cp -rfv ${THE_OVERLAY_DIR_PATH}/etc/skel/Templates/. ${HOME}/Templates/"
+	#cp -rfv "${THE_OVERLAY_DIR_PATH}/etc/skel/Templates/." "${HOME}/Templates/"
 
 }
 
