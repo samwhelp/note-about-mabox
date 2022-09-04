@@ -69,10 +69,7 @@ mod_theme_asset_install () {
 	util_error_echo
 
 
-	util_error_echo
-	util_error_echo '## No Asset'
-	util_error_echo
-
+	sys_gruvbox_theme_asset_install
 
 }
 

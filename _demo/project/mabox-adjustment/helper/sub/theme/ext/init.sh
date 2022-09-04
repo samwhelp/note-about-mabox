@@ -34,7 +34,7 @@ THE_SUB_THEME_PACKAGE_LIST_REMOVE_FILE_PATH="${THE_SUB_THEME_BASE_DIR_PATH}/shar
 ##
 
 source "${THE_SUB_THEME_EXT_DIR_PATH}/${THE_SUB_THEME_MODULE_NAME}.sh"
-
+source "${THE_SUB_THEME_EXT_DIR_PATH}/gruvbox-theme.sh"
 
 ##
 ### Tail: Func / Init
