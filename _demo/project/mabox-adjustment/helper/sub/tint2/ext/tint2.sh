@@ -47,6 +47,14 @@ mod_tint2_config_install () {
 	#util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/tint2/tint2.conf ${HOME}/.config/tint2/tint2.conf"
 	#install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/tint2/tint2.conf" "${HOME}/.config/tint2/tint2.conf"
 
+	util_error_echo "cp -rf ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/tint2/. ${HOME}/.config/tint2/"
+	cp -rf "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/tint2/." "${HOME}/.config/tint2/"
+
+
+	#util_error_echo "cp -rfv ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/tint2/. ${HOME}/.config/tint2/"
+	#cp -rfv "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/tint2/." "${HOME}/.config/tint2/"
+
+
 }
 
 ##
