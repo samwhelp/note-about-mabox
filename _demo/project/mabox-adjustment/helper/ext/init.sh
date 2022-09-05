@@ -30,7 +30,10 @@ base_var_dump
 ## Load Function
 ##
 
-source "${THE_EXT_DIR_PATH}/util.sh"
+##
+## load util
+##
+source "${THE_EXT_UTIL_DIR_PATH}/init.sh"
 
 
 ##
