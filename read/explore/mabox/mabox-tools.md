@@ -136,3 +136,8 @@ pacman -Ql mabox-tools -q | sort -u
 /usr/share/mcc/software/
 /usr/share/mcc/software/z_cli_updater.desktop
 ```
+
+
+## Source
+
+* [mabox-tools](https://git.maboxlinux.org/Mabox/mabox-tools)
