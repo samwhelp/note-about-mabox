@@ -18,6 +18,8 @@ grand_parent: 探索
 pacman -Qi mabox-tools
 ```
 
+顯示
+
 ```
 Name            : mabox-tools
 Version         : 20220827-1
