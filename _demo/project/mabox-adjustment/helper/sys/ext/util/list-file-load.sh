@@ -14,8 +14,8 @@ util_list_file_load () {
 
 	local file_path="$1"
 
-	cat $file_path  | while IFS='' read -r line; do
-		trim_line=$(echo $line) # trim
+	cat "${file_path}"  | while IFS='' read -r line; do
+		trim_line=$(echo ${line}) # trim
 
 		## https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html
 		## ignore leading #
@@ -24,11 +24,11 @@ util_list_file_load () {
 		fi
 
 		## ignore empty line
-		if [[ -z "$trim_line" ]]; then
+		if [[ -z ${trim_line} ]]; then
 			continue;
 		fi
 
-		echo "$line"
+		echo "${line}"
 	done
 }
 
