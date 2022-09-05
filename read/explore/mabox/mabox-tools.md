@@ -14,6 +14,37 @@ grand_parent: 探索
 
 執行
 
+```
+pacman -Qi mabox-tools
+```
+
+```
+Name            : mabox-tools
+Version         : 20220827-1
+Description     : Utilities for Mabox
+Architecture    : any
+URL             : https://git.maboxlinux.org/Mabox/mabox-tools
+Licenses        : GPL
+Groups          : None
+Provides        : None
+Depends On      : wmctrl  xsettingsd  python-xlib  ttf-lucide-font
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : mabox-utilities
+Replaces        : None
+Installed Size  : 437.62 KiB
+Packager        : Unknown Packager
+Build Date      : Sat 27 Aug 2022 09:14:33 PM CST
+Install Date    : Mon 29 Aug 2022 09:21:30 PM CST
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : SHA-256 Sum
+```
+
+
+執行
+
 ``` sh
 pacman -Ql mabox-tools -q | sort -u
 ```
@@ -148,3 +179,8 @@ pacman -Ql mabox-tools -q | sort -u
 | Tool | Source |
 | --- | --- |
 | [mb-obthemes](https://samwhelp.github.io/note-about-mabox/read/explore/tool/mb-obthemes.html) | [mb-obthemes](https://git.maboxlinux.org/Mabox/mabox-tools/src/branch/master/bin/mb-obthemes) |
+
+
+
+
+
