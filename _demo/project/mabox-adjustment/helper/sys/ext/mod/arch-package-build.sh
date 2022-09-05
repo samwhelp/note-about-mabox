@@ -32,7 +32,7 @@ sys_arch_package_build_mabox_adjustment_core () {
 
 	local pkgbuild_source_dir_path="${THE_SHARE_DIR_PATH}/packaging/arch/mabox-adjustment-core"
 
-	local pkgbuild_target_dir_path="${HOME}/.config/mabox-adjustment/var/mabox-adjustment-core"
+	local pkgbuild_target_dir_path="${HOME}/.cache/mabox-adjustment/build/mabox-adjustment-core"
 
 	#echo "${pkgbuild_source_dir_path}"
 	#echo "${pkgbuild_target_dir_path}"
@@ -71,15 +71,15 @@ sys_arch_package_build_mabox_adjustment_core () {
 
 	util_error_echo
 	util_error_echo '##'
-	util_error_echo '## Package Dir: ~/.config/mabox-adjustment/var/mabox-adjustment-core/package/'
-	util_error_echo "## Package File: $(ls ~/.config/mabox-adjustment/var/mabox-adjustment-core/package)"
+	util_error_echo '## Package Dir: ~/.cache/mabox-adjustment/build/mabox-adjustment-core/package/'
+	util_error_echo "## Package File: $(ls ~/.cache/mabox-adjustment/build/mabox-adjustment-core/package)"
 	util_error_echo '##'
 	util_error_echo
 
 	util_error_echo
 	util_error_echo '## Please run:'
 	util_error_echo
-	util_error_echo 'cd ~/.config/mabox-adjustment/var/mabox-adjustment-core/'
+	util_error_echo 'cd ~/.cache/mabox-adjustment/build/mabox-adjustment-core/'
 	util_error_echo
 	util_error_echo 'make reinstall'
 	util_error_echo
@@ -91,7 +91,7 @@ sys_arch_package_build_mabox_adjustment_core_copy_asset () {
 
 	local plan_source_dir_path="${THE_PLAN_DIR_PATH}"
 
-	local pkgbuild_target_dir_path="${HOME}/.config/mabox-adjustment/var/mabox-adjustment-core"
+	local pkgbuild_target_dir_path="${HOME}/.cache/mabox-adjustment/build/mabox-adjustment-core"
 
 	local plan_target_dir_path="$pkgbuild_target_dir_path/asset/overlay/usr/share/mabox-adjustment"
 
