@@ -36,3 +36,8 @@ pacman -Qo $(which mb-obthemes) -q
 ```
 mabox-tools
 ```
+
+
+## Package
+
+* [mabox-tools](https://samwhelp.github.io/note-about-mabox/read/explore/mabox/mabox-tools.html)
