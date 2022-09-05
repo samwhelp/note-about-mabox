@@ -1,7 +1,7 @@
 ---
 title: maboxlinux-source
 nav_order: 7100
-has_children: true
+has_children: false
 parent: 探索
 ---
 
