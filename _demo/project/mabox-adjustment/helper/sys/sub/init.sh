@@ -8,7 +8,15 @@
 ## Load Function
 ##
 
+##
+## main
+##
 source "${THE_SYS_SUB_DIR_PATH}/main.sh"
+
+
+##
+## sub module
+##
 source "${THE_SUB_DIR_PATH}/openbox/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/style/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/sakura/ext/init.sh"
