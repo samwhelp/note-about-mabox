@@ -11,6 +11,20 @@ parent: 探索
 
 ## 探索
 
+執行
+
+``` sh
+grep '\[maboxlinux\]' /etc/pacman.conf  -A 3
+```
+
+顯示
+
+```
+[maboxlinux]
+SigLevel = Optional TrustAll
+Server = http://repo.maboxlinux.org/stable/$arch/
+
+```
 
 執行
 
