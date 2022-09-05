@@ -141,3 +141,10 @@ pacman -Ql mabox-tools -q | sort -u
 ## Source
 
 * [mabox-tools](https://git.maboxlinux.org/Mabox/mabox-tools)
+
+
+## Tool
+
+| Tool | Source |
+| --- | --- |
+| [mb-obthemes](https://samwhelp.github.io/note-about-mabox/read/explore/tool/mb-obthemes.html) | [mb-obthemes](https://git.maboxlinux.org/Mabox/mabox-tools/src/branch/master/bin/mb-obthemes) |
