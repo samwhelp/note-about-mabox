@@ -30,13 +30,11 @@ has_children: true
 | [/etc/xdg/openbox/autostart](http://git.openbox.org/?p=dana/openbox.git;a=blob;f=data/autostart/autostart.in;h=1c261a0f5ee9fed79ec4d996532d9464893358d5;hb=HEAD) | openbox autostart |
 
 
-
 ## 設定檔範例
 
 | 設定檔 | 按鍵綁定 |
 | --- | --- |
 | [mabox-adjustment](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/) | [中文版說明](https://samwhelp.github.io/note-about-mabox/read/config/mabox-adjustment/keybind.html) ([英文版說明](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/spec-keybind.md)) |
-
 
 
 ## 設定檔官方文件說明
@@ -50,3 +48,10 @@ has_children: true
 * [Help:Themes](http://openbox.org/wiki/Help:Themes)
 * [Help:Autostart](http://openbox.org/wiki/Help:Autostart)
 * [Help:DefaultConfiguration](http://openbox.org/wiki/Help:DefaultConfiguration)
+
+
+## Link
+
+* [Debian Wiki] / [Openbox](https://wiki.debian.org/Openbox)
+* [Arch Wiki] / [Openbox](https://wiki.archlinux.org/title/openbox)
+
