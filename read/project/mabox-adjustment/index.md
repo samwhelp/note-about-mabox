@@ -9,6 +9,14 @@ parent: 專案
 # mabox-adjustment
 
 
+## 按鍵綁定
+
+| 說明 |
+| --- |
+| [中文版](https://samwhelp.github.io/note-about-mabox/read/config/mabox-adjustment/keybind.html) |
+| [英文版](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/share/doc/spec-keybind.md) |
+
+
 ## Core
 
 | Core |
