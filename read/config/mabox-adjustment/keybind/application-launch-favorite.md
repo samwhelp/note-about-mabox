@@ -14,6 +14,6 @@ grand_parent: 設定
 | 按鍵組合          | 功能           | 執行指令     |
 | ----------------- | -------------- | ------------ |
 | `Alt + Shift + f` | 開啟檔案管理器 | `pcmanfm-qt` |
-| `Alt + Shift + g` | 開啟檔案管理器 | `thunar`     |
+| `Alt + Shift + g` | 開啟檔案管理器 | `pcmanfm`     |
 | `Alt + Shift + e` | 開啟文字編輯器 | `mousepad`   |
 | `Alt + Shift + b` | 開啟網頁瀏覽器 | `firefox`    |

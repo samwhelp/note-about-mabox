@@ -9,9 +9,10 @@ grand_parent: 設定
 
 # 螢幕截圖
 
-* [設定片段](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/share/gen/openbox-gen-rc/Section/Keybind/Screenshot.php#L3-L15)
+* [設定片段](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/share/gen/openbox-gen-rc/Section/Keybind/Screenshot.php#L3-L19)
 
 | 按鍵組合      | 功能                 | 執行指令   |
 | ------------- | -------------------- | ---------- |
-| `Print`       | 螢幕截圖             | `scrot`    |
-| `Alt + Print` | 選取螢幕畫面區塊截圖 | `scrot -s` |
+| `Print`       | 螢幕截圖             | `flameshot gui`    |
+| `Alt + Print` | 螢幕截圖             | `flameshot launcher` |
+| `Win + Print` | 螢幕截圖             | `mb-jgtools screenshot` |
