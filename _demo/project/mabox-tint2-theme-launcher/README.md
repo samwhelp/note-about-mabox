@@ -1,6 +1,12 @@
 
 # mabox-tint2-theme-launcher
 
+
+## Theme Dir Path
+
+* [~/.config/tint2/themes](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/tint2/themes)
+
+
 ## Install
 
 Run
@@ -38,21 +44,57 @@ wget 'https://raw.githubusercontent.com/samwhelp/note-about-mabox/gh-pages/_demo
 ## Usage
 
 
-### Help
+### help
 
 ``` sh
-$ mabox-tint2-theme-launcher
+mabox-tint2-theme-launcher
 ```
 
 or
 
 ``` sh
-$ mabox-tint2-theme-launcher help
+mabox-tint2-theme-launcher help
 ```
 
 
-### Debug
+### debug
+
+run
 
 ``` sh
-$ export DEBUG_MABOX_TINT2_THEME_LAUNCHER=true
+export DEBUG_MABOX_TINT2_THEME_LAUNCHER=true
+```
+
+
+### theme_list and restart
+
+run
+
+``` sh
+mabox-tint2-theme-launcher theme_list
+```
+
+show
+
+```
+gruvbox-bottom-panel
+gruvbox-top-bottom-panel
+gruvbox-top-panel
+```
+
+then run
+
+``` sh
+mabox-tint2-theme-launcher theme_restart gruvbox-top-bottom-panel
+```
+
+> would run [~/.config/tint2/theme/gruvbox-top-bottom-panel/restart.sh](https://github.com/samwhelp/note-about-mabox/blob/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/tint2/themes/gruvbox-top-bottom-panel/restart.sh)
+
+
+### fzf_theme_restart
+
+run
+
+``` sh
+fzf_theme_restart
 ```
