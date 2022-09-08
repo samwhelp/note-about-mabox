@@ -16,6 +16,15 @@ chmod 755 "$HOME/.local/bin/mabox-tint2-theme-launcher"
 Or Run
 
 ``` sh
+curl -fLo "$HOME/.local/bin/mabox-tint2-theme-launcher" --create-dirs \
+	'https://raw.githubusercontent.com/samwhelp/note-about-mabox/gh-pages/_demo/project/mabox-tint2-theme-launcher/mabox-tint2-theme-launcher'
+
+chmod 755 "$HOME/.local/bin/mabox-tint2-theme-launcher"
+```
+
+Or Run
+
+``` sh
 curl -fsSL 'https://raw.githubusercontent.com/samwhelp/note-about-mabox/gh-pages/_demo/project/mabox-tint2-theme-launcher/remote-install.sh' | bash
 ```
 
