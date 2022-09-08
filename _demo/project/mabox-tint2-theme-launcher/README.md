@@ -82,7 +82,7 @@ gruvbox-top-bottom-panel
 gruvbox-top-panel
 ```
 
-> list [~/.config/tint2/themes](https://github.com/samwhelp/note-about-mabox/blob/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/tint2/themes/)
+> list [[~/.config/tint2/themes](https://github.com/samwhelp/note-about-mabox/blob/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/tint2/themes/)]
 
 then run
 
@@ -90,7 +90,7 @@ then run
 mabox-tint2-theme-launcher theme_restart gruvbox-top-bottom-panel
 ```
 
-> would run [~/.config/tint2/theme/gruvbox-top-bottom-panel/restart.sh](https://github.com/samwhelp/note-about-mabox/blob/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/tint2/themes/gruvbox-top-bottom-panel/restart.sh)
+> would run [[~/.config/tint2/theme/gruvbox-top-bottom-panel/restart.sh](https://github.com/samwhelp/note-about-mabox/blob/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/tint2/themes/gruvbox-top-bottom-panel/restart.sh)]
 
 
 ### fzf_theme_restart
