@@ -1,7 +1,7 @@
 ---
 title: mabox-tint2-theme-launcher
 nav_order: 8020
-has_children: true
+has_children: false
 parent: 專案
 ---
 
