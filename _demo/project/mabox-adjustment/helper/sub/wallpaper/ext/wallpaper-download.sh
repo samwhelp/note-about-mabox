@@ -11,6 +11,10 @@ mod_wallpaper_asset_install_wallpaper_download () {
 
 	##util_error_echo "${THE_SUB_WALLPAPER_WALLPAPER_LIST_DOWNLOAD_FILE_PATH}"
 
+	util_error_echo "mkdir -p ${HOME}/Pictures/Wallpaper"
+	mkdir -p "${HOME}/Pictures/Wallpaper"
+
+
 	util_error_echo "cd ${HOME}/Pictures/Wallpaper"
 	cd "${HOME}/Pictures/Wallpaper"
 
@@ -131,4 +135,3 @@ mod_wallpaper_asset_install_wallpaper_download_the_Qu_Que_Ling () {
 ##
 ### Tail: Mod / Wallpaper / Dwonload
 ################################################################################
-
