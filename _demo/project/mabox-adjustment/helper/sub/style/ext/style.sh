@@ -14,7 +14,9 @@ mod_style_package_install () {
 
 	##util_error_echo "${THE_SUB_STYLE_PACKAGE_LIST_INSTALL_FILE_PATH}"
 
-	sys_package_list_install "${THE_SUB_STYLE_PACKAGE_LIST_INSTALL_FILE_PATH}"
+	#sys_package_list_install "${THE_SUB_STYLE_PACKAGE_LIST_INSTALL_FILE_PATH}"
+	sys_package_list_install_by_yay "${THE_SUB_STYLE_PACKAGE_LIST_INSTALL_FILE_PATH}"
+
 
 }
 

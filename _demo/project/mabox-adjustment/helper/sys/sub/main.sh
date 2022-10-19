@@ -41,7 +41,7 @@ mod_main_package_list_find_for_install () {
 	mod_wallpaer_package_list_find_for_install
 
 
-	mod_style_package_list_find_for_install
+	#mod_style_package_list_find_for_install
 
 }
 
