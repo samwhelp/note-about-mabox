@@ -38,7 +38,7 @@ mod_main_package_list_find_for_install () {
 	mod_xdg_package_list_find_for_install
 	mod_tool_package_list_find_for_install
 	mod_helper_package_list_find_for_install
-	mod_wallpaer_package_list_find_for_install
+	mod_wallpaper_package_list_find_for_install
 
 
 	#mod_style_package_list_find_for_install
