@@ -47,7 +47,7 @@ main_package_install () {
 	# sudo pacman -Sy --needed $(main_package_find_list)
 	# pamac install $(main_package_find_list)
 	# pamac build $(main_package_find_list)
-	yay -S $(main_package_find_list)
+	yay -Sy --needed $(main_package_find_list)
 }
 
 main_package_install
