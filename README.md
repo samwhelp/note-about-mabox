@@ -23,7 +23,7 @@
 
 | Core |
 | --- |
-| [mabox-adjustment](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment) |
+| [mabox-adjustment](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment) |
 
 
 | mabox-adjustment (config) | Mabox Linux |
