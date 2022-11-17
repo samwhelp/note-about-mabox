@@ -12,4 +12,4 @@ grand_parent: 專案
 
 ## 專案連結
 
-* [mabox-adjustment-packaging](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment-system/mabox-adjustment-packaging)
+* [mabox-adjustment-packaging](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-system/mabox-adjustment-packaging)

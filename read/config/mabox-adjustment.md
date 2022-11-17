@@ -14,12 +14,12 @@ parent: 設定
 | 說明 |
 | --- |
 | [中文版](https://samwhelp.github.io/note-about-mabox/read/config/mabox-adjustment/keybind.html) |
-| [英文版](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/share/doc/spec-keybind.md) |
+| [英文版](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/share/doc/spec-keybind.md) |
 
 
 ## 設定檔專案
 
-* [mabox-adjustment](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/)
+* [mabox-adjustment](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/)
 
 
 ## 設定檔路徑
@@ -28,10 +28,10 @@ parent: 設定
 
 | 設定檔路徑 |
 | --- |
-| [~/.config/openbox/rc.xml](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/rc.xml) |
-| [~/.config/openbox/menu.xml](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/menu.xml) |
-| [~/.config/openbox/environment](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/environment) |
-| [~/.config/openbox/autostart](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/autostart) |
+| [~/.config/openbox/rc.xml](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/rc.xml) |
+| [~/.config/openbox/menu.xml](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/menu.xml) |
+| [~/.config/openbox/environment](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/environment) |
+| [~/.config/openbox/autostart](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/autostart) |
 
 
 ## Link

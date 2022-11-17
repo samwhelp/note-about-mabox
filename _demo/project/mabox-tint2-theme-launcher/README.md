@@ -4,7 +4,7 @@
 
 ## Theme Dir Path
 
-* [~/.config/tint2/themes](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/tint2/themes)
+* [~/.config/tint2/themes](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/tint2/themes)
 
 
 ## Install

@@ -34,7 +34,7 @@ has_children: true
 
 | 設定檔 | 按鍵綁定 |
 | --- | --- |
-| [mabox-adjustment](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/) | [中文版說明](https://samwhelp.github.io/note-about-mabox/read/config/mabox-adjustment/keybind.html) ([英文版說明](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/spec-keybind.md)) |
+| [mabox-adjustment](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/) | [中文版說明](https://samwhelp.github.io/note-about-mabox/read/config/mabox-adjustment/keybind.html) ([英文版說明](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/spec-keybind.md)) |
 
 
 ## 設定檔官方文件說明

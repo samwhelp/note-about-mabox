@@ -6,7 +6,7 @@
 
 ##
 ## * https://github.com/samwhelp/skel-project-plan/blob/gh-pages/demo/sh/standalone/bin/demo-ctrl
-## * https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-tint2-theme-launcher
+## * https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-tint2-theme-launcher
 ## * https://github.com/samwhelp/note-about-mabox/blob/gh-pages/_demo/project/mabox-tint2-theme-launcher/mabox-tint2-theme-launcher
 ## * https://raw.githubusercontent.com/samwhelp/note-about-mabox/gh-pages/_demo/project/mabox-tint2-theme-launcher/mabox-tint2-theme-launcher
 ##

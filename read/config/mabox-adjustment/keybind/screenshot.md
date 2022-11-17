@@ -9,7 +9,7 @@ grand_parent: 設定
 
 # 螢幕截圖
 
-* [設定片段](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/share/gen/openbox-gen-rc/Section/Keybind/Screenshot.php#L3-L19)
+* [設定片段](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/share/gen/openbox-gen-rc/Section/Keybind/Screenshot.php#L3-L19)
 
 | 按鍵組合      | 功能                 | 執行指令   |
 | ------------- | -------------------- | ---------- |

@@ -9,7 +9,7 @@ grand_parent: 設定
 
 # 開啟應用程式 (Terminal)
 
-* [設定片段](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/share/gen/openbox-gen-rc/Section/Keybind/ApplicationLaunchTerminal.php#L17-L109)
+* [設定片段](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/share/gen/openbox-gen-rc/Section/Keybind/ApplicationLaunchTerminal.php#L17-L109)
 
 
 | 按鍵組合          | 功能         | 執行指令                     |
@@ -21,7 +21,7 @@ grand_parent: 設定
 | `Alt + Ctrl + t`  | 開啟 Terminal | `xfce4-terminal --maximize`                     |
 
 
-* [設定片段](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/share/gen/openbox-gen-rc/Section/Keybind/ApplicationLaunchTerminal.php#L48-L52)
+* [設定片段](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/share/gen/openbox-gen-rc/Section/Keybind/ApplicationLaunchTerminal.php#L48-L52)
 
 
 | 按鍵組合          | 功能                      | 執行指令                     |

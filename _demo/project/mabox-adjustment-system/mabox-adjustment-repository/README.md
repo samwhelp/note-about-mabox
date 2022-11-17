@@ -1,7 +1,7 @@
 # mabox-adjustment-repository
 
-* [mabox-adjustment-packaging](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment-system/mabox-adjustment-packaging)
-* [mabox-adjustment-repository](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment-system/mabox-adjustment-repository)
+* [mabox-adjustment-packaging](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-system/mabox-adjustment-packaging)
+* [mabox-adjustment-repository](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-system/mabox-adjustment-repository)
 
 
 ## Use Local

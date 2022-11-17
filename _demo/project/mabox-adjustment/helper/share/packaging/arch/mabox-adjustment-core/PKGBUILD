@@ -13,7 +13,7 @@ pkgname=mabox-adjustment-core
 pkgver=0.1
 pkgrel=1
 pkgdesc="Mabox Adjustment / Core"
-url="https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment"
+url="https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment"
 arch=('any')
 license=('MIT')
 makedepends=()
@@ -25,7 +25,7 @@ options=(!strip !emptydirs)
 ##
 ## ## Source
 ##
-## * https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment
+## * https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment
 ##
 ## ## Note
 ##

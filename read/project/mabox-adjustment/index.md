@@ -14,26 +14,26 @@ parent: 專案
 | 說明 |
 | --- |
 | [中文版](https://samwhelp.github.io/note-about-mabox/read/config/mabox-adjustment/keybind.html) |
-| [英文版](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/share/doc/spec-keybind.md) |
+| [英文版](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/share/doc/spec-keybind.md) |
 
 
 ## Core
 
 | Core |
 | --- |
-| [mabox-adjustment](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment) |
+| [mabox-adjustment](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment) |
 
 
 ## Tool
 
 | Tool | Project |
 | --- | --- |
-| [mabox-adjust-ctrl](https://samwhelp.github.io/note-about-mabox/read/project/mabox-adjustment/mabox-adjust-ctrl.html) | [project](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/tool/mabox-adjust-ctrl) |
+| [mabox-adjust-ctrl](https://samwhelp.github.io/note-about-mabox/read/project/mabox-adjustment/mabox-adjust-ctrl.html) | [project](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment/tool/mabox-adjust-ctrl) |
 
 
 ## System
 
 | System | Project |
 | --- | --- |
-| [mabox-adjustment-packaging](https://samwhelp.github.io/note-about-mabox/read/project/mabox-adjustment/mabox-adjustment-packaging.html) | [project](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment-system/mabox-adjustment-packaging)
-| [mabox-adjustment-repository](https://samwhelp.github.io/note-about-mabox/read/project/mabox-adjustment/mabox-adjustment-repository.html) | [project](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment-system/mabox-adjustment-repository)
+| [mabox-adjustment-packaging](https://samwhelp.github.io/note-about-mabox/read/project/mabox-adjustment/mabox-adjustment-packaging.html) | [project](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-system/mabox-adjustment-packaging)
+| [mabox-adjustment-repository](https://samwhelp.github.io/note-about-mabox/read/project/mabox-adjustment/mabox-adjustment-repository.html) | [project](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-system/mabox-adjustment-repository)

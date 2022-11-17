@@ -26,7 +26,7 @@ grand_parent: 設定
 
 這篇的根據，是採用「[客製的設定](https://samwhelp.github.io/note-about-mabox/read/config/mabox-adjustment.html)」，
 
-請參考「[我的設定檔](https://github.com/samwhelp/note-about-mabox/tree/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/)」。
+請參考「[我的設定檔](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/)」。
 
 
 ## 系統操作
