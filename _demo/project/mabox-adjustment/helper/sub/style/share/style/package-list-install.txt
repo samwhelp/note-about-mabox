@@ -1,3 +1,0 @@
-
-qt5-styleplugins
-#qt5ct

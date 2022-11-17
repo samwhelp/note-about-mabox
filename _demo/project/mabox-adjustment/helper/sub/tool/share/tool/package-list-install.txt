@@ -1,4 +1,0 @@
-tree
-git
-curl
-wget
