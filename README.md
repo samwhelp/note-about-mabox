@@ -1,7 +1,7 @@
 
 # 首頁
 
-[note-about-mabox](https://samwhelp.github.io/note-about-mabox/) | [GitHub](https://github.com/samwhelp/note-about-mabox) | [Wiki](https://github.com/samwhelp/note-about-mabox/wiki)
+[note-about-mabox](https://samwhelp.github.io/note-about-mabox/) | [GitHub](https://github.com/samwhelp/note-about-mabox) | [Wiki](https://github.com/samwhelp/note-about-mabox/wiki) | [Mabox Adjustment](https://samwhelp.github.io/mabox-adjustment/)
 
 
 ## 主題
