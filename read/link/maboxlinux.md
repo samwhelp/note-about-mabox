@@ -21,6 +21,18 @@ parent: 連結
 * Mabox Linux / [Forum](https://forum.maboxlinux.org/)
 
 
+## Gitea
+
+* [Mabox](https://git.maboxlinux.org/Mabox)
+* [napcok](https://git.maboxlinux.org/napcok)
+
+
+## GitHub
+
+* [Mabox-Linux](https://github.com/Mabox-Linux)
+* [napcok](https://github.com/napcok)
+
+
 ## 相關範例
 
 * [Demo Grub Boot Mabox ISO](https://github.com/samwhelp/note-about-grub/tree/gh-pages/_demo/prototype/boot_iso/demo_41_custom/MaboxLinux/latest)
