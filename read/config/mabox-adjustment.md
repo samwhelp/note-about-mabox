@@ -14,7 +14,7 @@ parent: 設定
 | 說明 |
 | --- |
 | [中文版](https://samwhelp.github.io/note-about-mabox/read/config/mabox-adjustment/keybind.html) |
-| [英文版](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/share/doc/spec-keybind.md) |
+| [英文版](https://github.com/samwhelp/mabox-adjustment/blob/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/helper/share/doc/spec-keybind.md) |
 
 
 ## 設定檔專案
