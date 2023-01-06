@@ -23,7 +23,7 @@ grand_parent: 設定
 
 ## 指定切換
 
-* [設定片段](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/share/gen/openbox-gen-rc/Section/Keybind/WorkspaceSwitch.php#L81-L139)
+* [設定片段](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/helper/share/gen/openbox-gen-rc/Section/Keybind/WorkspaceSwitch.php#L81-L139)
 
 | 按鍵組合  | 功能                    | 執行指令                       |
 | --------- | ----------------------- | ------------------------------ |
@@ -41,7 +41,7 @@ grand_parent: 設定
 
 ## 循環切換
 
-* [設定片段](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/share/gen/openbox-gen-rc/Section/Keybind/WorkspaceSwitch.php#L8-L18)
+* [設定片段](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/helper/share/gen/openbox-gen-rc/Section/Keybind/WorkspaceSwitch.php#L8-L18)
 
 
 | 按鍵組合  | 功能                 | 執行指令                   |

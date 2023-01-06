@@ -42,7 +42,7 @@ grand_parent: 設定
 
 ## 切換「顯示桌面」
 
-* [設定片段](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/share/gen/openbox-gen-rc/Section/Keybind/SystemToggleShowDesktop.php#L3-L5)
+* [設定片段](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/helper/share/gen/openbox-gen-rc/Section/Keybind/SystemToggleShowDesktop.php#L3-L5)
 
 | 按鍵組合           | 功能        | 執行指令             |
 | ----------------- | ------------ | -------------------- |

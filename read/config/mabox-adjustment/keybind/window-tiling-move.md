@@ -12,7 +12,7 @@ grand_parent: 設定
 
 ## 移動到側邊(side)
 
-* [設定片段](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/share/gen/openbox-gen-rc/Section/Keybind/WindowTilingMoveSide.php#L4-L42)
+* [設定片段](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/helper/share/gen/openbox-gen-rc/Section/Keybind/WindowTilingMoveSide.php#L4-L42)
 
 | 按鍵組合          | 功能           | 執行指令              |
 | ----------------- | -------------- | ---------------------------- |
@@ -24,7 +24,7 @@ grand_parent: 設定
 
 ## 移動到角落(corner)
 
-* [設定片段](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/share/gen/openbox-gen-rc/Section/Keybind/WindowTilingMoveCorner.php#L4-L42)
+* [設定片段](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/helper/share/gen/openbox-gen-rc/Section/Keybind/WindowTilingMoveCorner.php#L4-L42)
 
 
 | 按鍵組合          | 功能           | 執行指令              |
@@ -37,7 +37,7 @@ grand_parent: 設定
 
 ## 操作兩個視窗側邊平鋪
 
-* [設定片段](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/share/gen/openbox-gen-rc/Section/Keybind/WindowTiling.php)
+* [設定片段](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/helper/share/gen/openbox-gen-rc/Section/Keybind/WindowTiling.php)
 
 
 | 按鍵組合          | 功能           | 執行指令              |

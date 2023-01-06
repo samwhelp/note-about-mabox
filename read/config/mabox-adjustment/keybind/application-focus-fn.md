@@ -12,7 +12,7 @@ grand_parent: 設定
 
 * $ man [wmctrl](http://manpages.ubuntu.com/manpages/jammy/en/man1/wmctrl.1.html)
 * [openbox-focus-ctrl](https://github.com/samwhelp/note-about-openbox/blob/gh-pages/_demo/config/openbox-config/main/bin/openbox-focus-ctrl)
-* [設定片段](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/share/gen/openbox-gen-rc/Section/Keybind/ApplicationFocusFn.php#L3-L26)
+* [設定片段](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/helper/share/gen/openbox-gen-rc/Section/Keybind/ApplicationFocusFn.php#L3-L26)
 
 
 | 按鍵組合          | 功能           | 執行指令     |
@@ -23,7 +23,7 @@ grand_parent: 設定
 | `Win + F4` | 開啟或聚焦終端機    | `sakura` 或是 `wmctrl -x -a sakura`    |
 
 
-* [設定片段](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/share/gen/openbox-gen-rc/Section/Keybind/ApplicationFocusFn.php#L31-L54)
+* [設定片段](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/helper/share/gen/openbox-gen-rc/Section/Keybind/ApplicationFocusFn.php#L31-L54)
 
 
 | 按鍵組合          | 功能           | 執行指令     |
