@@ -21,11 +21,13 @@ parent: 專案
 
 ## 如何安裝
 
+安裝「[~/.local/bin/mabox-tint2-theme-launcher](https://github.com/samwhelp/mabox-adjustment/blob/main/project/mabox-tint2-theme-launcher/mabox-tint2-theme-launcher)」
+
 執行
 
 ``` sh
 curl -fLo "$HOME/.local/bin/mabox-tint2-theme-launcher" --create-dirs \
-	'https://raw.githubusercontent.com/samwhelp/note-about-mabox/gh-pages/_demo/project/mabox-tint2-theme-launcher/mabox-tint2-theme-launcher'
+	'https://raw.githubusercontent.com/samwhelp/mabox-adjustment/main/project/mabox-tint2-theme-launcher/mabox-tint2-theme-launcher'
 
 chmod 755 "$HOME/.local/bin/mabox-tint2-theme-launcher"
 ```
@@ -49,7 +51,13 @@ gruvbox-top-bottom-panel
 gruvbox-top-panel
 ```
 
-> 會顯示「[~/.config/tint2/themes](https://github.com/samwhelp/note-about-mabox/blob/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/tint2/themes/)」裡面的列表。
+> 會顯示「[~/.config/tint2/themes](project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/tint2/themes)」裡面的列表。
+
+| theme |
+| --- |
+| [gruvbox-top-panel](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/tint2/themes/gruvbox-top-panel) |
+| [gruvbox-bottom-panel](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/tint2/themes/gruvbox-top-bottom-panel) |
+| [gruvbox-top-bottom-panel](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/tint2/themes/gruvbox-top-bottom-panel) |
 
 
 接著執行下面指令
@@ -58,7 +66,7 @@ gruvbox-top-panel
 mabox-tint2-theme-launcher theme_restart gruvbox-top-bottom-panel
 ```
 
-> 也就是會執行「[~/.config/tint2/theme/gruvbox-top-bottom-panel/restart.sh](https://github.com/samwhelp/note-about-mabox/blob/gh-pages/_demo/project/mabox-adjustment/asset/overlay/etc/skel/.config/tint2/themes/gruvbox-top-bottom-panel/restart.sh)」。
+> 也就是會執行「[~/.config/tint2/theme/gruvbox-top-bottom-panel/restart.sh](https://github.com/samwhelp/mabox-adjustment/blob/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/tint2/themes/gruvbox-top-bottom-panel/restart.sh)」。
 
 
 ### 方式二
