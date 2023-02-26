@@ -8,6 +8,8 @@
 
 * [Mabox Linux](#mabox-linux)
 * [Mabox Adjustment](#mabox-adjustment)
+* [Keybind](#keybind)
+* [Issue](#issue)
 * [相關筆記](#相關筆記)
 
 
