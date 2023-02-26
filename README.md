@@ -50,6 +50,14 @@
 | [mabox-adjustment-repository](https://samwhelp.github.io/note-about-mabox/read/project/mabox-adjustment/mabox-adjustment-repository.html) | [project](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-system/mabox-adjustment-repository)
 
 
+## Keybind
+
+| Keybind |
+| --- |
+| [按鍵操作快速上手指南](https://samwhelp.github.io/system-modeling/read/zh_tw/quick-start) |
+| [按鍵綁定](https://samwhelp.github.io/note-about-mabox/read/config/mabox-adjustment/keybind.html) |
+
+
 ## Issue
 
 * [[about mabox mousebind] Drag window to move, when window maximized](https://github.com/napcok/clicksnap/issues/2)
