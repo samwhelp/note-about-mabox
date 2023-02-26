@@ -28,6 +28,8 @@ grand_parent: 設定
 
 請參考「[我的設定檔](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/asset/overlay/etc/skel/.config/openbox/)」。
 
+> [按鍵操作快速上手指南](https://samwhelp.github.io/system-modeling/read/zh_tw/quick-start)
+
 
 ## 系統操作
 

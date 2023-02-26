@@ -11,6 +11,8 @@ parent: 設定
 
 ## 按鍵綁定
 
+> [按鍵操作快速上手指南](https://samwhelp.github.io/system-modeling/read/zh_tw/quick-start)
+
 | 說明 |
 | --- |
 | [中文版](https://samwhelp.github.io/note-about-mabox/read/config/mabox-adjustment/keybind.html) |
