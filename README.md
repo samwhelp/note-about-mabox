@@ -39,7 +39,7 @@
 
 | Tool | Project |
 | --- | --- |
-| [mabox-adjust-ctrl](https://samwhelp.github.io/note-about-mabox/read/project/mabox-adjustment/mabox-adjust-ctrl.html) | [project](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment/tool/mabox-adjust-ctrl) |
+| [mabox-adjust-ctrl](https://samwhelp.github.io/note-about-mabox/read/project/mabox-adjustment/mabox-adjust-ctrl.html) | [project](https://github.com/samwhelp/mabox-adjustment/tree/main/project/mabox-adjustment-core/mabox-adjustment/tool/mabox-adjust-ctrl) |
 
 
 ### System
