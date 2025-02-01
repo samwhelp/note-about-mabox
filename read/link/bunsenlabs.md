@@ -19,4 +19,4 @@ parent: 連結
 
 | Link | GitHub |
 | ---- | ------ |
-| [BunsenLabs 探索筆記](https://samwhelp.github.io/note-about-bunsenLabs/) | [GitHub](https://github.com/samwhelp/note-about-bunsenLabs) |
+| [BunsenLabs 探索筆記](https://samwhelp.github.io/note-about-bunsenlabs/) | [GitHub](https://github.com/samwhelp/note-about-bunsenlabs) |
