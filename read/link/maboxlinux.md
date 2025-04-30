@@ -50,6 +50,8 @@ parent: 連結
 
 ## skippy-xd
 
+> [March 2025 ISO refresh – 6.12 LTS kernel, AreaClick, skippy-xd!](https://maboxlinux.org/march-2025-iso-refresh-6-12-lts-kernel-areaclick-skippy-xd/)
+
 | GitHub |
 | ------ |
 | felixfung / [skippy-xd](https://github.com/felixfung/skippy-xd) |
